@@ -3,17 +3,17 @@
  "observations": [
   {
    "date": "2026-06-10",
-   "fetched_at": "2026-06-10T13:39:06Z",
+   "fetched_at": "2026-06-10T14:11:11Z",
    "outcomes": [
     {
      "label": "Yes",
-     "price": 0.015,
+     "price": 0.0145,
      "best_bid": 0.009,
-     "best_ask": 0.021
+     "best_ask": 0.02
     },
     {
      "label": "No",
-     "price": 0.985
+     "price": 0.9855
     }
    ]
   }
