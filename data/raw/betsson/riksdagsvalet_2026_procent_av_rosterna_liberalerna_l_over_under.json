@@ -1,0 +1,26 @@
+{
+ "source": "betsson",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:05Z",
+   "outcomes": [
+    {
+     "label": "Över",
+     "odds": 2.45,
+     "line": 4.0
+    },
+    {
+     "label": "Under",
+     "odds": 1.49,
+     "line": 4.0
+    }
+   ]
+  }
+ ],
+ "market_name": "Riksdagsvalet 2026: Procent av rösterna: Liberalerna (L) – Över-Under",
+ "market_id": "m-f-8jpS3aIGxkiWVLMpJ6M0SA-BAPOU-4",
+ "event_name": "Riksdagsvalet 2026: Procent av rösterna: Liberalerna (L)",
+ "url": "https://www.betsson.com/sv/odds/politik-och-naringsliv",
+ "odds_format": "decimal"
+}

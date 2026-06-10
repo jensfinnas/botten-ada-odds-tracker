@@ -1,0 +1,26 @@
+{
+ "source": "betsson",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:05Z",
+   "outcomes": [
+    {
+     "label": "Över",
+     "odds": 1.85,
+     "line": 17.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.85,
+     "line": 17.5
+    }
+   ]
+  }
+ ],
+ "market_name": "Riksdagsvalet 2026: Procent av rösterna: Moderaterna (M) – Över-Under",
+ "market_id": "m-f-4eywU2bP5E-46KGQEdWqwA-BAPOU-17.5",
+ "event_name": "Riksdagsvalet 2026: Procent av rösterna: Moderaterna (M)",
+ "url": "https://www.betsson.com/sv/odds/politik-och-naringsliv",
+ "odds_format": "decimal"
+}

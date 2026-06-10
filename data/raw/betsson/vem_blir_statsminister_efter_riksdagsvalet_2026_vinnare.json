@@ -1,0 +1,31 @@
+{
+ "source": "betsson",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:05Z",
+   "outcomes": [
+    {
+     "label": "Magdalena Andersson",
+     "odds": 1.3,
+     "line": 0.0
+    },
+    {
+     "label": "Ulf Kristersson",
+     "odds": 3.5,
+     "line": 0.0
+    },
+    {
+     "label": "Jimmie Åkesson",
+     "odds": 15.0,
+     "line": 0.0
+    }
+   ]
+  }
+ ],
+ "market_name": "Vem blir statsminister efter riksdagsvalet 2026 – Vinnare",
+ "market_id": "m-f-SXIjXgIJIUuE7p6DJ4GnlQ-WIN",
+ "event_name": "Vem blir statsminister efter riksdagsvalet 2026",
+ "url": "https://www.betsson.com/sv/odds/politik-och-naringsliv",
+ "odds_format": "decimal"
+}

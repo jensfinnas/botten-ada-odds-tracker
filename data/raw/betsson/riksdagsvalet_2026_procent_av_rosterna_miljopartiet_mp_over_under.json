@@ -1,0 +1,26 @@
+{
+ "source": "betsson",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:05Z",
+   "outcomes": [
+    {
+     "label": "Över",
+     "odds": 1.8,
+     "line": 6.0
+    },
+    {
+     "label": "Under",
+     "odds": 1.9,
+     "line": 6.0
+    }
+   ]
+  }
+ ],
+ "market_name": "Riksdagsvalet 2026: Procent av rösterna: Miljöpartiet (MP) – Över-Under",
+ "market_id": "m-f-RIZTx8Jkk02Aa8_MpX8BJA-BAPOU-6",
+ "event_name": "Riksdagsvalet 2026: Procent av rösterna: Miljöpartiet (MP)",
+ "url": "https://www.betsson.com/sv/odds/politik-och-naringsliv",
+ "odds_format": "decimal"
+}

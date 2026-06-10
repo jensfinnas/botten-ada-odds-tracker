@@ -1,0 +1,26 @@
+{
+ "source": "kambi",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:06Z",
+   "outcomes": [
+    {
+     "label": "(m)+(sd)+(kd)+(l)",
+     "odds": 3.75
+    },
+    {
+     "label": "(s)+(v)+(mp)+(c)",
+     "odds": 1.22
+    }
+   ]
+  }
+ ],
+ "market_name": "Vinner flest platser",
+ "market_name_english": "Party/Coalition to obtain most seats",
+ "market_id": "1020265650/2406496603",
+ "criterion_id": 1001822705,
+ "event_name": "2026 Swedish General Election",
+ "url": "https://www.unibet.se/betting/sports/event/1020265650",
+ "odds_format": "decimal"
+}

@@ -1,0 +1,26 @@
+{
+ "source": "betsson",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:05Z",
+   "outcomes": [
+    {
+     "label": "Över",
+     "odds": 1.9,
+     "line": 5.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.8,
+     "line": 5.5
+    }
+   ]
+  }
+ ],
+ "market_name": "Riksdagsvalet 2026: Procent av rösterna: Centerpartiet (C) – Över-Under",
+ "market_id": "m-f-l30Fry2UGUaQmCBSp8-RJw-BAPOU-5.5",
+ "event_name": "Riksdagsvalet 2026: Procent av rösterna: Centerpartiet (C)",
+ "url": "https://www.betsson.com/sv/odds/politik-och-naringsliv",
+ "odds_format": "decimal"
+}

@@ -1,0 +1,26 @@
+{
+ "source": "kambi",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:06Z",
+   "outcomes": [
+    {
+     "label": "Sweden Democrats (sd)",
+     "odds": 1.1
+    },
+    {
+     "label": "Moderate Party (m)",
+     "odds": 6.0
+    }
+   ]
+  }
+ ],
+ "market_name": "Partiet som får flest röster",
+ "market_name_english": "Party to get most votes",
+ "market_id": "1020265650/2614522935",
+ "criterion_id": 2100107896,
+ "event_name": "2026 Swedish General Election",
+ "url": "https://www.unibet.se/betting/sports/event/1020265650",
+ "odds_format": "decimal"
+}

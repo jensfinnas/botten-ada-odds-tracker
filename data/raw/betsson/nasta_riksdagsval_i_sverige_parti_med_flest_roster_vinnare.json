@@ -1,0 +1,56 @@
+{
+ "source": "betsson",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:05Z",
+   "outcomes": [
+    {
+     "label": "Socialdemokraterna (S)",
+     "odds": 1.05,
+     "line": 0.0
+    },
+    {
+     "label": "Sverigedemokraterna (SD)",
+     "odds": 8.0,
+     "line": 0.0
+    },
+    {
+     "label": "Moderaterna (M)",
+     "odds": 15.0,
+     "line": 0.0
+    },
+    {
+     "label": "Vänsterpartiet (V)",
+     "odds": 55.0,
+     "line": 0.0
+    },
+    {
+     "label": "Centerpartiet (C)",
+     "odds": 85.0,
+     "line": 0.0
+    },
+    {
+     "label": "Miljöpartiet (MP)",
+     "odds": 100.0,
+     "line": 0.0
+    },
+    {
+     "label": "Kristdemokraterna (KD)",
+     "odds": 250.0,
+     "line": 0.0
+    },
+    {
+     "label": "Liberalerna (L)",
+     "odds": 250.0,
+     "line": 0.0
+    }
+   ]
+  }
+ ],
+ "market_name": "Nästa Riksdagsval i Sverige: Parti med flest röster – Vinnare",
+ "market_id": "m-f-mw3_yGO6okuG4bMzrbtSQg-WIN",
+ "event_name": "Nästa Riksdagsval i Sverige: Parti med flest röster",
+ "url": "https://www.betsson.com/sv/odds/politik-och-naringsliv",
+ "odds_format": "decimal"
+}

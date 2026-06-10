@@ -1,0 +1,28 @@
+{
+ "source": "kambi",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:06Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.95,
+     "line": 17.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.75,
+     "line": 17.5
+    }
+   ]
+  }
+ ],
+ "market_name": "Procent mottagna röster - Moderaterna (m)",
+ "market_name_english": "Percentage of votes obtained - Moderate Party (m)",
+ "market_id": "1020265650/2618067957",
+ "criterion_id": 1004970405,
+ "event_name": "2026 Swedish General Election",
+ "url": "https://www.unibet.se/betting/sports/event/1020265650",
+ "odds_format": "decimal"
+}

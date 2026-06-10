@@ -1,0 +1,31 @@
+{
+ "source": "smarkets",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:06Z",
+   "outcomes": [
+    {
+     "label": "Moderate",
+     "best_bid": 294,
+     "best_offer": 417
+    },
+    {
+     "label": "Social Democrats",
+     "best_bid": 8696,
+     "best_offer": 9434
+    },
+    {
+     "label": "Sweden Democrats",
+     "best_bid": 370,
+     "best_offer": 526
+    }
+   ]
+  }
+ ],
+ "market_name": "2026 Swedish General Election - Most Seats",
+ "market_id": "144500535",
+ "event_name": "2026 Swedish General Election - Most Seats",
+ "url": "https://smarkets.com/politics/europe/sweden/2026/09/13/18-00/2026-swedish-general-election-most-seats",
+ "odds_format": "smarkets_quotes"
+}

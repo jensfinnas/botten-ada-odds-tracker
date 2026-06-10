@@ -1,0 +1,26 @@
+{
+ "source": "betsson",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:05Z",
+   "outcomes": [
+    {
+     "label": "Över",
+     "odds": 1.65,
+     "line": 4.5
+    },
+    {
+     "label": "Under",
+     "odds": 2.1,
+     "line": 4.5
+    }
+   ]
+  }
+ ],
+ "market_name": "Riksdagsvalet 2026: Procent av rösterna: Kristdemokraterna (KD) – Över-Under",
+ "market_id": "m-f-HbaDJtXVvk68ExmAs9sswg-BAPOU-4.5",
+ "event_name": "Riksdagsvalet 2026: Procent av rösterna: Kristdemokraterna (KD)",
+ "url": "https://www.betsson.com/sv/odds/politik-och-naringsliv",
+ "odds_format": "decimal"
+}

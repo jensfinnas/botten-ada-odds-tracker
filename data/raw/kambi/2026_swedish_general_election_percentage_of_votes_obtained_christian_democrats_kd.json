@@ -1,0 +1,28 @@
+{
+ "source": "kambi",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:06Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.65,
+     "line": 4.5
+    },
+    {
+     "label": "Under",
+     "odds": 2.1,
+     "line": 4.5
+    }
+   ]
+  }
+ ],
+ "market_name": "Procent mottagna röster - Kristdemokraterna (kd)",
+ "market_name_english": "Percentage of votes obtained - Christian-Democrats (kd)",
+ "market_id": "1020265650/2614522781",
+ "criterion_id": 1004970414,
+ "event_name": "2026 Swedish General Election",
+ "url": "https://www.unibet.se/betting/sports/event/1020265650",
+ "odds_format": "decimal"
+}

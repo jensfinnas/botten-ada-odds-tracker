@@ -1,0 +1,20 @@
+{
+ "source": "botten_ada",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:06Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.336
+    }
+   ]
+  }
+ ],
+ "market_name": "is_M_larger_than_SD",
+ "market_id": "is_M_larger_than_SD",
+ "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_M_larger_than_SD.json",
+ "odds_format": "probability",
+ "model_run": "fc2026_final_x_drift_8m10_20260605_203638_27429"
+}

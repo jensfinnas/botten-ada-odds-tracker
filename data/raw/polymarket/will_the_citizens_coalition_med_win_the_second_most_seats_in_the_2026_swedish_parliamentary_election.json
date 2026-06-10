@@ -1,0 +1,27 @@
+{
+ "source": "polymarket",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:06Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0075,
+     "best_bid": 0.004,
+     "best_ask": 0.011
+    },
+    {
+     "label": "No",
+     "price": 0.9925
+    }
+   ]
+  }
+ ],
+ "market_name": "Will the Citizens' Coalition (MED) win the second most seats in the 2026 Swedish parliamentary election?",
+ "market_id": "2304235",
+ "event_name": "Sweden Parliamentary Election: 2nd Place",
+ "url": "https://polymarket.com/event/sweden-parliamentary-election-2nd-place",
+ "odds_format": "probability",
+ "volume_usd": 510.071428
+}

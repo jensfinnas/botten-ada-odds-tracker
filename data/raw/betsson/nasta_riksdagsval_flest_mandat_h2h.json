@@ -1,0 +1,26 @@
+{
+ "source": "betsson",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:05Z",
+   "outcomes": [
+    {
+     "label": "S+V+MP+C",
+     "odds": 1.16,
+     "line": 0.0
+    },
+    {
+     "label": "M+SD+KD+L",
+     "odds": 4.3,
+     "line": 0.0
+    }
+   ]
+  }
+ ],
+ "market_name": "Nästa Riksdagsval: Flest mandat – H2H",
+ "market_id": "m-f-74zKQs0q8EaBoU80Ys7FDA-H2H-5885988-5885989",
+ "event_name": "Nästa Riksdagsval: Flest mandat",
+ "url": "https://www.betsson.com/sv/odds/politik-och-naringsliv",
+ "odds_format": "decimal"
+}

@@ -1,0 +1,50 @@
+{
+ "source": "kambi",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:06Z",
+   "outcomes": [
+    {
+     "label": "Left Party (v)",
+     "odds": 51.0
+    },
+    {
+     "label": "Liberals (l)",
+     "odds": 251.0
+    },
+    {
+     "label": "Green Party (mp)",
+     "odds": 101.0
+    },
+    {
+     "label": "Moderate Party (m)",
+     "odds": 15.0
+    },
+    {
+     "label": "Social-Democrats (s)",
+     "odds": 1.05
+    },
+    {
+     "label": "Centre Party (c)",
+     "odds": 81.0
+    },
+    {
+     "label": "Christian-Democrats (kd)",
+     "odds": 251.0
+    },
+    {
+     "label": "Sweden Democrats (sd)",
+     "odds": 9.0
+    }
+   ]
+  }
+ ],
+ "market_name": "Parti/koalition som får högst procent av rösterna",
+ "market_name_english": "Party/Coalition to obtain highest percentage of votes",
+ "market_id": "1020265650/2406499800",
+ "criterion_id": 1001405896,
+ "event_name": "2026 Swedish General Election",
+ "url": "https://www.unibet.se/betting/sports/event/1020265650",
+ "odds_format": "decimal"
+}

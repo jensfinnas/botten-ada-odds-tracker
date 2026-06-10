@@ -1,0 +1,26 @@
+{
+ "source": "betsson",
+ "observations": [
+  {
+   "date": "2026-06-10",
+   "fetched_at": "2026-06-10T13:39:05Z",
+   "outcomes": [
+    {
+     "label": "Över",
+     "odds": 1.57,
+     "line": 20.5
+    },
+    {
+     "label": "Under",
+     "odds": 2.25,
+     "line": 20.5
+    }
+   ]
+  }
+ ],
+ "market_name": "Riksdagsvalet 2026: Procent av rösterna: Sverigedemokraterna (SD) – Över-Under",
+ "market_id": "m-f-6OkbRxSobkqxDwQ-EjFCVw-BAPOU-20.5",
+ "event_name": "Riksdagsvalet 2026: Procent av rösterna: Sverigedemokraterna (SD)",
+ "url": "https://www.betsson.com/sv/odds/politik-och-naringsliv",
+ "odds_format": "decimal"
+}
