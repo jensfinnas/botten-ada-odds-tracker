@@ -84,6 +84,11 @@ def scrape(raw_dir=None):
     session = get_session()
     response = session.get(URL, headers=HEADERS, timeout=TIMEOUT)
     response.raise_for_status()
+    if "json" not in response.headers.get("content-type", ""):
+        raise RuntimeError(
+            "Betsson returned non-JSON (geo-blocked? runs from non-EU IPs "
+            "are known to fail); content-type=%s"
+            % response.headers.get("content-type"))
     paths = []
     for market, outcomes in parse_widgets(response.json()):
         paths.append(save_observation(SOURCE, market, outcomes, raw_dir=raw_dir))

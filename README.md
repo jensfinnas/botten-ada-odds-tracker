@@ -121,9 +121,12 @@ different question.
   have little trading; wide bid/ask spreads make midpoints noisy.
 - **Margins differ by market.** Bookmaker margins (and hence the size of the
   vig correction) vary between markets and over time.
-- **Betsson fragility.** Betsson's API requires browser-like headers and the
-  responses are jurisdiction-filtered; runs from non-EU datacenter IPs may
-  stop returning Swedish markets. The source fails in isolation if so.
+- **Betsson coverage gaps.** Betsson's API requires browser-like headers and
+  is geo-blocked outside its licensed jurisdictions: GitHub's US-based
+  Actions runners get an HTML block page, so the scheduled runs currently
+  collect **no Betsson data** (the source fails in isolation; all other
+  columns are unaffected). Betsson rows appear only when `run.py` is executed
+  from a Swedish/EU IP. Possible future fixes: an EU-hosted runner or proxy.
 
 ## Running locally
 
