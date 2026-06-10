@@ -109,11 +109,12 @@ questions:
         outcome_label: "Över"
         require_line: 4.0
 
-  # --- Largest party by votes (not in Ada ontology) ---
+  # --- Largest party by votes (S/SD/M in Ada ontology; smaller parties not) ---
   - question_id: does_S_get_most_votes
     description: "Blir S största parti (flest röster)?"
-    in_ada_ontology: false
+    in_ada_ontology: true
     sources:
+      botten_ada: {market_slug: does_S_get_most_votes, outcome_label: "yes"}
       kambi:
         market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
         outcome_label: "Social-Democrats (s)"
@@ -123,8 +124,9 @@ questions:
 
   - question_id: does_SD_get_most_votes
     description: "Blir SD största parti (flest röster)?"
-    in_ada_ontology: false
+    in_ada_ontology: true
     sources:
+      botten_ada: {market_slug: does_SD_get_most_votes, outcome_label: "yes"}
       kambi:
         market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
         outcome_label: "Sweden Democrats (sd)"
@@ -134,8 +136,9 @@ questions:
 
   - question_id: does_M_get_most_votes
     description: "Blir M största parti (flest röster)?"
-    in_ada_ontology: false
+    in_ada_ontology: true
     sources:
+      botten_ada: {market_slug: does_M_get_most_votes, outcome_label: "yes"}
       kambi:
         market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
         outcome_label: "Moderate Party (m)"
@@ -198,11 +201,12 @@ questions:
         market_slug: nasta_riksdagsval_i_sverige_parti_med_flest_roster_vinnare
         outcome_label: "Liberalerna (L)"
 
-  # --- Most seats (not in Ada ontology) ---
+  # --- Most seats (S/SD/M in Ada ontology; smaller parties not) ---
   - question_id: does_S_get_most_seats
     description: "Får S flest mandat?"
-    in_ada_ontology: false
+    in_ada_ontology: true
     sources:
+      botten_ada: {market_slug: does_S_get_most_seats, outcome_label: "yes"}
       smarkets:
         market_slug: 2026_swedish_general_election_most_seats
         outcome_label: "Social Democrats"
@@ -212,8 +216,9 @@ questions:
 
   - question_id: does_SD_get_most_seats
     description: "Får SD flest mandat?"
-    in_ada_ontology: false
+    in_ada_ontology: true
     sources:
+      botten_ada: {market_slug: does_SD_get_most_seats, outcome_label: "yes"}
       smarkets:
         market_slug: 2026_swedish_general_election_most_seats
         outcome_label: "Sweden Democrats"
@@ -223,8 +228,9 @@ questions:
 
   - question_id: does_M_get_most_seats
     description: "Får M flest mandat?"
-    in_ada_ontology: false
+    in_ada_ontology: true
     sources:
+      botten_ada: {market_slug: does_M_get_most_seats, outcome_label: "yes"}
       smarkets:
         market_slug: 2026_swedish_general_election_most_seats
         outcome_label: "Moderate"
