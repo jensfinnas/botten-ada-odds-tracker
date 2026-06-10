@@ -9,6 +9,13 @@
 #   require_line:  for over/under markets: the question is only defined at
 #                  this exact line; if the bookmaker moves the line the
 #                  mapping yields no value (by design).
+# NOTE on block questions: with 349 seats (odd) and only the eight current
+# parliament parties winning seats, "more seats than the other block" and
+# "own majority" are the same outcome — and Botten Ada's model assigns them
+# identical probabilities. The market sources are therefore shared between
+# the duel and majority questions. Resolution rules differ in principle
+# (Polymarket's Tidö market resolves on >=175 seats, the Kambi/Betsson duel
+# on most seats) and would diverge only if a new party entered parliament.
 questions:
   - question_id: does_lw_get_more_seats_than_rw
     description: "Skulle S, MP, C och V tillsammans få fler mandat än M, KD, SD och L tillsammans?"
@@ -21,6 +28,9 @@ questions:
       betsson:
         market_slug: nasta_riksdagsval_flest_mandat_h2h
         outcome_label: "S+V+MP+C"
+      polymarket:
+        market_slug: will_tido_parties_win_a_majority_in_the_2026_swedish_parliamentary_elections_20260603233725849
+        outcome_label: "No"
 
   - question_id: does_rw_get_more_seats_than_lw
     description: "Skulle M, KD, SD och L tillsammans få fler mandat än S, MP, C och V tillsammans?"
@@ -33,15 +43,39 @@ questions:
       betsson:
         market_slug: nasta_riksdagsval_flest_mandat_h2h
         outcome_label: "M+SD+KD+L"
+      polymarket:
+        market_slug: will_tido_parties_win_a_majority_in_the_2026_swedish_parliamentary_elections_20260603233725849
+        outcome_label: "Yes"
 
   - question_id: does_M_L_KD_SD_have_seat_majority
     description: "Får Kristerssons underlag (M, L, KD, SD) en majoritet av mandaten?"
     in_ada_ontology: true
     sources:
       botten_ada: {market_slug: does_M_L_KD_SD_have_seat_majority, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_most_seats
+        outcome_label: "(m)+(sd)+(kd)+(l)"
+      betsson:
+        market_slug: nasta_riksdagsval_flest_mandat_h2h
+        outcome_label: "M+SD+KD+L"
       polymarket:
         market_slug: will_tido_parties_win_a_majority_in_the_2026_swedish_parliamentary_elections_20260603233725849
         outcome_label: "Yes"
+
+  - question_id: does_C_S_V_MP_have_seat_majority
+    description: "Får Anderssons underlag (C, S, V, MP) en majoritet av mandaten?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_C_S_V_MP_have_seat_majority, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_most_seats
+        outcome_label: "(s)+(v)+(mp)+(c)"
+      betsson:
+        market_slug: nasta_riksdagsval_flest_mandat_h2h
+        outcome_label: "S+V+MP+C"
+      polymarket:
+        market_slug: will_tido_parties_win_a_majority_in_the_2026_swedish_parliamentary_elections_20260603233725849
+        outcome_label: "No"
 
   - question_id: is_M_larger_than_SD
     description: "Är M större än SD?"

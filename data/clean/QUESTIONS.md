@@ -13,6 +13,7 @@ In Botten Ada ontology: yes
 | botten_ada | does_lw_get_more_seats_than_rw | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_lw_get_more_seats_than_rw.json |
 | betsson | Nästa Riksdagsval: Flest mandat – H2H | S+V+MP+C | https://www.betsson.com/sv/odds/politik-och-naringsliv |
 | kambi | Vinner flest platser | (s)+(v)+(mp)+(c) | https://www.unibet.se/betting/sports/event/1020265650 |
+| polymarket | Will Tidö parties win a majority in the 2026 Swedish parliamentary elections? | No | https://polymarket.com/event/will-tido-parties-win-a-majority-in-the-2026-swedish-parliamentary-elections-20260603233725849 |
 
 ## `does_rw_get_more_seats_than_lw`
 
@@ -25,6 +26,7 @@ In Botten Ada ontology: yes
 | botten_ada | does_rw_get_more_seats_than_lw | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_rw_get_more_seats_than_lw.json |
 | betsson | Nästa Riksdagsval: Flest mandat – H2H | M+SD+KD+L | https://www.betsson.com/sv/odds/politik-och-naringsliv |
 | kambi | Vinner flest platser | (m)+(sd)+(kd)+(l) | https://www.unibet.se/betting/sports/event/1020265650 |
+| polymarket | Will Tidö parties win a majority in the 2026 Swedish parliamentary elections? | Yes | https://polymarket.com/event/will-tido-parties-win-a-majority-in-the-2026-swedish-parliamentary-elections-20260603233725849 |
 
 ## `does_M_L_KD_SD_have_seat_majority`
 
@@ -35,7 +37,22 @@ In Botten Ada ontology: yes
 | Source | Market | Outcome | URL |
 | --- | --- | --- | --- |
 | botten_ada | does_M_L_KD_SD_have_seat_majority | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_M_L_KD_SD_have_seat_majority.json |
+| betsson | Nästa Riksdagsval: Flest mandat – H2H | M+SD+KD+L | https://www.betsson.com/sv/odds/politik-och-naringsliv |
+| kambi | Vinner flest platser | (m)+(sd)+(kd)+(l) | https://www.unibet.se/betting/sports/event/1020265650 |
 | polymarket | Will Tidö parties win a majority in the 2026 Swedish parliamentary elections? | Yes | https://polymarket.com/event/will-tido-parties-win-a-majority-in-the-2026-swedish-parliamentary-elections-20260603233725849 |
+
+## `does_C_S_V_MP_have_seat_majority`
+
+Får Anderssons underlag (C, S, V, MP) en majoritet av mandaten?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | does_C_S_V_MP_have_seat_majority | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_C_S_V_MP_have_seat_majority.json |
+| betsson | Nästa Riksdagsval: Flest mandat – H2H | S+V+MP+C | https://www.betsson.com/sv/odds/politik-och-naringsliv |
+| kambi | Vinner flest platser | (s)+(v)+(mp)+(c) | https://www.unibet.se/betting/sports/event/1020265650 |
+| polymarket | Will Tidö parties win a majority in the 2026 Swedish parliamentary elections? | No | https://polymarket.com/event/will-tido-parties-win-a-majority-in-the-2026-swedish-parliamentary-elections-20260603233725849 |
 
 ## `is_M_larger_than_SD`
 

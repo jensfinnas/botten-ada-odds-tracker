@@ -113,10 +113,15 @@ different question.
 - **Non-exhaustive outcome lists.** Bookmaker outright markets may omit
   unlikely outcomes (e.g. only three prime minister candidates are listed).
   Proportional normalization then slightly overstates the listed outcomes.
-- **Ties.** Two-way "most seats" block-duel markets have no draw outcome,
-  while Botten Ada's mirrored questions (`does_lw_get_more_seats_than_rw` /
-  `does_rw_get_more_seats_than_lw`) treat an exact seat tie separately. The
-  difference is negligible but real.
+- **Block duel = block majority.** With 349 seats (an odd number) and only
+  the eight current parliament parties winning seats, "more seats than the
+  other block" and "own majority" are the same outcome — Botten Ada's model
+  assigns them identical probabilities. The market sources are therefore
+  shared between the duel questions (`does_rw_get_more_seats_than_lw`) and
+  the majority questions (`does_M_L_KD_SD_have_seat_majority`). Market
+  resolution rules differ in principle (Polymarket's Tidö market resolves on
+  ≥175 seats, the bookmaker duels on most seats) and would diverge only if a
+  new party entered parliament.
 - **Thin liquidity.** Smarkets' Swedish markets and some Polymarket markets
   have little trading; wide bid/ask spreads make midpoints noisy.
 - **Margins differ by market.** Bookmaker margins (and hence the size of the

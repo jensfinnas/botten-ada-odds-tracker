@@ -7,14 +7,14 @@
    "outcomes": [
     {
      "label": "yes",
-     "probability": 0.029
+     "probability": 0.971
     }
    ]
   }
  ],
- "market_name": "does_M_L_KD_SD_have_seat_majority",
- "market_id": "does_M_L_KD_SD_have_seat_majority",
- "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_M_L_KD_SD_have_seat_majority.json",
+ "market_name": "does_C_S_V_MP_have_seat_majority",
+ "market_id": "does_C_S_V_MP_have_seat_majority",
+ "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_C_S_V_MP_have_seat_majority.json",
  "odds_format": "probability",
  "model_run": "fc2026_final_x_drift_8m10_20260605_203638_27429"
 }
