@@ -96,7 +96,7 @@ In Botten Ada ontology: yes
 
 | Source | Market | Outcome | URL |
 | --- | --- | --- | --- |
-| botten_ada | does_S_get_most_votes | yes |  |
+| botten_ada | does_S_get_most_votes | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_S_get_most_votes.json |
 | betsson | Nästa Riksdagsval i Sverige: Parti med flest röster – Vinnare | Socialdemokraterna (S) | https://www.betsson.com/sv/odds/politik-och-naringsliv |
 | kambi | Parti/koalition som får högst procent av rösterna | Social-Democrats (s) | https://www.unibet.se/betting/sports/event/1020265650 |
 
@@ -108,7 +108,7 @@ In Botten Ada ontology: yes
 
 | Source | Market | Outcome | URL |
 | --- | --- | --- | --- |
-| botten_ada | does_SD_get_most_votes | yes |  |
+| botten_ada | does_SD_get_most_votes | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_SD_get_most_votes.json |
 | betsson | Nästa Riksdagsval i Sverige: Parti med flest röster – Vinnare | Sverigedemokraterna (SD) | https://www.betsson.com/sv/odds/politik-och-naringsliv |
 | kambi | Parti/koalition som får högst procent av rösterna | Sweden Democrats (sd) | https://www.unibet.se/betting/sports/event/1020265650 |
 
@@ -120,7 +120,7 @@ In Botten Ada ontology: yes
 
 | Source | Market | Outcome | URL |
 | --- | --- | --- | --- |
-| botten_ada | does_M_get_most_votes | yes |  |
+| botten_ada | does_M_get_most_votes | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_M_get_most_votes.json |
 | betsson | Nästa Riksdagsval i Sverige: Parti med flest röster – Vinnare | Moderaterna (M) | https://www.betsson.com/sv/odds/politik-och-naringsliv |
 | kambi | Parti/koalition som får högst procent av rösterna | Moderate Party (m) | https://www.unibet.se/betting/sports/event/1020265650 |
 
@@ -187,7 +187,7 @@ In Botten Ada ontology: yes
 
 | Source | Market | Outcome | URL |
 | --- | --- | --- | --- |
-| botten_ada | does_S_get_most_seats | yes |  |
+| botten_ada | does_S_get_most_seats | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_S_get_most_seats.json |
 | polymarket | Will the Swedish Social Democratic Party (S) win the most seats in the 2026 Swedish parliamentary election? | Yes | https://polymarket.com/event/sweden-parliamentary-election-winner |
 | smarkets | 2026 Swedish General Election - Most Seats | Social Democrats | https://smarkets.com/politics/europe/sweden/2026/09/13/18-00/2026-swedish-general-election-most-seats |
 
@@ -199,7 +199,7 @@ In Botten Ada ontology: yes
 
 | Source | Market | Outcome | URL |
 | --- | --- | --- | --- |
-| botten_ada | does_SD_get_most_seats | yes |  |
+| botten_ada | does_SD_get_most_seats | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_SD_get_most_seats.json |
 | polymarket | Will the Sweden Democrats (SD) win the most seats in the 2026 Swedish parliamentary election? | Yes | https://polymarket.com/event/sweden-parliamentary-election-winner |
 | smarkets | 2026 Swedish General Election - Most Seats | Sweden Democrats | https://smarkets.com/politics/europe/sweden/2026/09/13/18-00/2026-swedish-general-election-most-seats |
 
@@ -211,7 +211,7 @@ In Botten Ada ontology: yes
 
 | Source | Market | Outcome | URL |
 | --- | --- | --- | --- |
-| botten_ada | does_M_get_most_seats | yes |  |
+| botten_ada | does_M_get_most_seats | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_M_get_most_seats.json |
 | polymarket | Will the Moderate Party (M) win the most seats in the 2026 Swedish parliamentary election? | Yes | https://polymarket.com/event/sweden-parliamentary-election-winner |
 | smarkets | 2026 Swedish General Election - Most Seats | Moderate | https://smarkets.com/politics/europe/sweden/2026/09/13/18-00/2026-swedish-general-election-most-seats |
 
