@@ -1,0 +1,288 @@
+# Maps source markets to binary questions named after the Botten Ada
+# question ontology (botten-ada-data-preparation/PROB_QUESTIONS.md).
+# Questions with in_ada_ontology: false follow the same naming style but
+# do not (yet) exist in Botten Ada.
+#
+# Per-source fields:
+#   market_slug:   filename (without .json) under data/raw/<source>/
+#   outcome_label: exact outcome label in the raw observation
+#   require_line:  for over/under markets: the question is only defined at
+#                  this exact line; if the bookmaker moves the line the
+#                  mapping yields no value (by design).
+questions:
+  - question_id: does_lw_get_more_seats_than_rw
+    description: "Skulle S, MP, C och V tillsammans få fler mandat än M, KD, SD och L tillsammans?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_lw_get_more_seats_than_rw, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_most_seats
+        outcome_label: "(s)+(v)+(mp)+(c)"
+      betsson:
+        market_slug: nasta_riksdagsval_flest_mandat_h2h
+        outcome_label: "S+V+MP+C"
+
+  - question_id: does_rw_get_more_seats_than_lw
+    description: "Skulle M, KD, SD och L tillsammans få fler mandat än S, MP, C och V tillsammans?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_rw_get_more_seats_than_lw, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_most_seats
+        outcome_label: "(m)+(sd)+(kd)+(l)"
+      betsson:
+        market_slug: nasta_riksdagsval_flest_mandat_h2h
+        outcome_label: "M+SD+KD+L"
+
+  - question_id: does_M_L_KD_SD_have_seat_majority
+    description: "Får Kristerssons underlag (M, L, KD, SD) en majoritet av mandaten?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_M_L_KD_SD_have_seat_majority, outcome_label: "yes"}
+      polymarket:
+        market_slug: will_tido_parties_win_a_majority_in_the_2026_swedish_parliamentary_elections_20260603233725849
+        outcome_label: "Yes"
+
+  - question_id: is_M_larger_than_SD
+    description: "Är M större än SD?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: is_M_larger_than_SD, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_party_to_get_most_votes_moderate_party_m_sweden_democrats_sd
+        outcome_label: "Moderate Party (m)"
+
+  - question_id: is_SD_larger_than_M
+    description: "Är SD större än M?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: is_SD_larger_than_M, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_party_to_get_most_votes_moderate_party_m_sweden_democrats_sd
+        outcome_label: "Sweden Democrats (sd)"
+
+  - question_id: is_L_above_4_pct
+    description: "Ligger L över spärren?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: is_L_above_4_pct, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_percentage_of_votes_obtained_liberals_l
+        outcome_label: "Over"
+        require_line: 4.0
+      betsson:
+        market_slug: riksdagsvalet_2026_procent_av_rosterna_liberalerna_l_over_under
+        outcome_label: "Över"
+        require_line: 4.0
+
+  # --- Largest party by votes (not in Ada ontology) ---
+  - question_id: does_S_get_most_votes
+    description: "Blir S största parti (flest röster)?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
+        outcome_label: "Social-Democrats (s)"
+      betsson:
+        market_slug: nasta_riksdagsval_i_sverige_parti_med_flest_roster_vinnare
+        outcome_label: "Socialdemokraterna (S)"
+
+  - question_id: does_SD_get_most_votes
+    description: "Blir SD största parti (flest röster)?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
+        outcome_label: "Sweden Democrats (sd)"
+      betsson:
+        market_slug: nasta_riksdagsval_i_sverige_parti_med_flest_roster_vinnare
+        outcome_label: "Sverigedemokraterna (SD)"
+
+  - question_id: does_M_get_most_votes
+    description: "Blir M största parti (flest röster)?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
+        outcome_label: "Moderate Party (m)"
+      betsson:
+        market_slug: nasta_riksdagsval_i_sverige_parti_med_flest_roster_vinnare
+        outcome_label: "Moderaterna (M)"
+
+  - question_id: does_V_get_most_votes
+    description: "Blir V största parti (flest röster)?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
+        outcome_label: "Left Party (v)"
+      betsson:
+        market_slug: nasta_riksdagsval_i_sverige_parti_med_flest_roster_vinnare
+        outcome_label: "Vänsterpartiet (V)"
+
+  - question_id: does_C_get_most_votes
+    description: "Blir C största parti (flest röster)?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
+        outcome_label: "Centre Party (c)"
+      betsson:
+        market_slug: nasta_riksdagsval_i_sverige_parti_med_flest_roster_vinnare
+        outcome_label: "Centerpartiet (C)"
+
+  - question_id: does_MP_get_most_votes
+    description: "Blir MP största parti (flest röster)?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
+        outcome_label: "Green Party (mp)"
+      betsson:
+        market_slug: nasta_riksdagsval_i_sverige_parti_med_flest_roster_vinnare
+        outcome_label: "Miljöpartiet (MP)"
+
+  - question_id: does_KD_get_most_votes
+    description: "Blir KD största parti (flest röster)?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
+        outcome_label: "Christian-Democrats (kd)"
+      betsson:
+        market_slug: nasta_riksdagsval_i_sverige_parti_med_flest_roster_vinnare
+        outcome_label: "Kristdemokraterna (KD)"
+
+  - question_id: does_L_get_most_votes
+    description: "Blir L största parti (flest röster)?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_party_coalition_to_obtain_highest_percentage_of_votes
+        outcome_label: "Liberals (l)"
+      betsson:
+        market_slug: nasta_riksdagsval_i_sverige_parti_med_flest_roster_vinnare
+        outcome_label: "Liberalerna (L)"
+
+  # --- Most seats (not in Ada ontology) ---
+  - question_id: does_S_get_most_seats
+    description: "Får S flest mandat?"
+    in_ada_ontology: false
+    sources:
+      smarkets:
+        market_slug: 2026_swedish_general_election_most_seats
+        outcome_label: "Social Democrats"
+      polymarket:
+        market_slug: will_the_swedish_social_democratic_party_s_win_the_most_seats_in_the_2026_swedish_parliamentary_election
+        outcome_label: "Yes"
+
+  - question_id: does_SD_get_most_seats
+    description: "Får SD flest mandat?"
+    in_ada_ontology: false
+    sources:
+      smarkets:
+        market_slug: 2026_swedish_general_election_most_seats
+        outcome_label: "Sweden Democrats"
+      polymarket:
+        market_slug: will_the_sweden_democrats_sd_win_the_most_seats_in_the_2026_swedish_parliamentary_election
+        outcome_label: "Yes"
+
+  - question_id: does_M_get_most_seats
+    description: "Får M flest mandat?"
+    in_ada_ontology: false
+    sources:
+      smarkets:
+        market_slug: 2026_swedish_general_election_most_seats
+        outcome_label: "Moderate"
+      polymarket:
+        market_slug: will_the_moderate_party_m_win_the_most_seats_in_the_2026_swedish_parliamentary_election
+        outcome_label: "Yes"
+
+  - question_id: does_V_get_most_seats
+    description: "Får V flest mandat?"
+    in_ada_ontology: false
+    sources:
+      polymarket:
+        market_slug: will_the_left_party_v_win_the_most_seats_in_the_2026_swedish_parliamentary_election
+        outcome_label: "Yes"
+
+  - question_id: does_C_get_most_seats
+    description: "Får C flest mandat?"
+    in_ada_ontology: false
+    sources:
+      polymarket:
+        market_slug: will_the_centre_party_c_win_the_most_seats_in_the_2026_swedish_parliamentary_election
+        outcome_label: "Yes"
+
+  - question_id: does_MP_get_most_seats
+    description: "Får MP flest mandat?"
+    in_ada_ontology: false
+    sources:
+      polymarket:
+        market_slug: will_the_green_party_mp_win_the_most_seats_in_the_2026_swedish_parliamentary_election
+        outcome_label: "Yes"
+
+  - question_id: does_KD_get_most_seats
+    description: "Får KD flest mandat?"
+    in_ada_ontology: false
+    sources:
+      polymarket:
+        market_slug: will_the_christian_democrats_kd_win_the_most_seats_in_the_2026_swedish_parliamentary_election
+        outcome_label: "Yes"
+
+  - question_id: does_L_get_most_seats
+    description: "Får L flest mandat?"
+    in_ada_ontology: false
+    sources:
+      polymarket:
+        market_slug: will_the_liberals_l_win_the_most_seats_in_the_2026_swedish_parliamentary_election
+        outcome_label: "Yes"
+
+  # --- Next prime minister (not in Ada ontology) ---
+  - question_id: does_Andersson_become_pm
+    description: "Blir Magdalena Andersson statsminister efter valet?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_candidate_to_be_appointed_prime_minister_after_the_election
+        outcome_label: "Magdalena Andersson"
+      betsson:
+        market_slug: vem_blir_statsminister_efter_riksdagsvalet_2026_vinnare
+        outcome_label: "Magdalena Andersson"
+      smarkets:
+        market_slug: next_swedish_prime_minister
+        outcome_label: "Magdalena Andersson"
+      polymarket:
+        market_slug: will_magdalena_andersson_be_the_next_prime_minister_of_sweden
+        outcome_label: "Yes"
+
+  - question_id: does_Kristersson_become_pm
+    description: "Blir Ulf Kristersson statsminister efter valet?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_candidate_to_be_appointed_prime_minister_after_the_election
+        outcome_label: "Ulf Kristersson"
+      betsson:
+        market_slug: vem_blir_statsminister_efter_riksdagsvalet_2026_vinnare
+        outcome_label: "Ulf Kristersson"
+      smarkets:
+        market_slug: next_swedish_prime_minister
+        outcome_label: "Ulf Kristersson"
+      polymarket:
+        market_slug: will_ulf_kristersson_be_the_next_prime_minister_of_sweden
+        outcome_label: "Yes"
+
+  - question_id: does_Akesson_become_pm
+    description: "Blir Jimmie Åkesson statsminister efter valet?"
+    in_ada_ontology: false
+    sources:
+      kambi:
+        market_slug: 2026_swedish_general_election_candidate_to_be_appointed_prime_minister_after_the_election
+        outcome_label: "Jimmie Åkesson"
+      betsson:
+        market_slug: vem_blir_statsminister_efter_riksdagsvalet_2026_vinnare
+        outcome_label: "Jimmie Åkesson"
+      polymarket:
+        market_slug: will_jimmie_kesson_be_the_next_prime_minister_of_sweden
+        outcome_label: "Yes"
