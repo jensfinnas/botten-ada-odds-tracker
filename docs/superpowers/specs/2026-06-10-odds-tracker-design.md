@@ -123,8 +123,9 @@ dokumenterad i README:
   framtida förbättring och nämns i README.
 - **Smarkets (börs):** priser saknar inbakad marginal (avgift tas på vinst).
   Sannolikhet = mittpunkt av implicit back- och lay-sannolikhet
-  (API:ts baspunkter / 10000). Normalisering över utfallen om summan ändå
-  avviker från 1. Saknas bid eller offer → ingen observation den dagen.
+  (API:ts baspunkter / 10000). Ingen normalisering över utfallen — varje
+  kontrakt prissätts oberoende på börsen och tunna böcker skulle förvrängas
+  av normalisering. Saknas bid eller offer → ingen observation den dagen.
 - **Polymarket:** priserna är sannolikheter. Midpoint av bestBid/bestAsk
   när båda finns, annars `outcomePrices`.
 - **Botten Ada:** `prob` används direkt.
