@@ -1,4 +1,4 @@
-# botten-ada-odds-tracker
+# Botten Ada Odds Tracker
 
 Daily tracking of betting odds and prediction-market prices for the **2026
 Swedish parliamentary election** (September 13), harmonized into probabilities
@@ -17,34 +17,36 @@ marks questions that exist in Botten Ada's question ontology; ✓ per source
 means the question can be derived from that source's markets.
 
 <!-- QUESTIONS_TABLE_START -->
-| Question | Description | In Ada | botten_ada | betsson | kambi | polymarket | smarkets |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [`does_lw_get_more_seats_than_rw`](data/clean/does_lw_get_more_seats_than_rw.csv) | Skulle S, MP, C och V tillsammans få fler mandat än M, KD, SD och L tillsammans? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
-| [`does_rw_get_more_seats_than_lw`](data/clean/does_rw_get_more_seats_than_lw.csv) | Skulle M, KD, SD och L tillsammans få fler mandat än S, MP, C och V tillsammans? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
-| [`does_M_L_KD_SD_have_seat_majority`](data/clean/does_M_L_KD_SD_have_seat_majority.csv) | Får Kristerssons underlag (M, L, KD, SD) en majoritet av mandaten? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
-| [`does_C_S_V_MP_have_seat_majority`](data/clean/does_C_S_V_MP_have_seat_majority.csv) | Får Anderssons underlag (C, S, V, MP) en majoritet av mandaten? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
-| [`is_M_larger_than_SD`](data/clean/is_M_larger_than_SD.csv) | Är M större än SD? | ✓ | ✓ |  | ✓ |  |  |
-| [`is_SD_larger_than_M`](data/clean/is_SD_larger_than_M.csv) | Är SD större än M? | ✓ | ✓ |  | ✓ |  |  |
-| [`is_L_above_4_pct`](data/clean/is_L_above_4_pct.csv) | Ligger L över spärren? | ✓ | ✓ | ✓ | ✓ |  |  |
-| [`does_S_get_most_votes`](data/clean/does_S_get_most_votes.csv) | Blir S största parti (flest röster)? | ✓ | ✓ | ✓ | ✓ |  |  |
-| [`does_SD_get_most_votes`](data/clean/does_SD_get_most_votes.csv) | Blir SD största parti (flest röster)? | ✓ | ✓ | ✓ | ✓ |  |  |
-| [`does_M_get_most_votes`](data/clean/does_M_get_most_votes.csv) | Blir M största parti (flest röster)? | ✓ | ✓ | ✓ | ✓ |  |  |
-| [`does_V_get_most_votes`](data/clean/does_V_get_most_votes.csv) | Blir V största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
-| [`does_C_get_most_votes`](data/clean/does_C_get_most_votes.csv) | Blir C största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
-| [`does_MP_get_most_votes`](data/clean/does_MP_get_most_votes.csv) | Blir MP största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
-| [`does_KD_get_most_votes`](data/clean/does_KD_get_most_votes.csv) | Blir KD största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
-| [`does_L_get_most_votes`](data/clean/does_L_get_most_votes.csv) | Blir L största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
-| [`does_S_get_most_seats`](data/clean/does_S_get_most_seats.csv) | Får S flest mandat? | ✓ | ✓ |  |  | ✓ | ✓ |
-| [`does_SD_get_most_seats`](data/clean/does_SD_get_most_seats.csv) | Får SD flest mandat? | ✓ | ✓ |  |  | ✓ | ✓ |
-| [`does_M_get_most_seats`](data/clean/does_M_get_most_seats.csv) | Får M flest mandat? | ✓ | ✓ |  |  | ✓ | ✓ |
-| [`does_V_get_most_seats`](data/clean/does_V_get_most_seats.csv) | Får V flest mandat? |  |  |  |  | ✓ |  |
-| [`does_C_get_most_seats`](data/clean/does_C_get_most_seats.csv) | Får C flest mandat? |  |  |  |  | ✓ |  |
-| [`does_MP_get_most_seats`](data/clean/does_MP_get_most_seats.csv) | Får MP flest mandat? |  |  |  |  | ✓ |  |
-| [`does_KD_get_most_seats`](data/clean/does_KD_get_most_seats.csv) | Får KD flest mandat? |  |  |  |  | ✓ |  |
-| [`does_L_get_most_seats`](data/clean/does_L_get_most_seats.csv) | Får L flest mandat? |  |  |  |  | ✓ |  |
-| [`does_Andersson_become_pm`](data/clean/does_Andersson_become_pm.csv) | Blir Magdalena Andersson statsminister efter valet? |  |  | ✓ | ✓ | ✓ | ✓ |
-| [`does_Kristersson_become_pm`](data/clean/does_Kristersson_become_pm.csv) | Blir Ulf Kristersson statsminister efter valet? |  |  | ✓ | ✓ | ✓ | ✓ |
-| [`does_Akesson_become_pm`](data/clean/does_Akesson_become_pm.csv) | Blir Jimmie Åkesson statsminister efter valet? |  |  | ✓ | ✓ | ✓ |  |
+
+| Question                                                                               | Description                                                                        | In Ada | botten_ada | betsson | kambi | polymarket | smarkets |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------ | ---------- | ------- | ----- | ---------- | -------- |
+| [`does_lw_get_more_seats_than_rw`](data/clean/does_lw_get_more_seats_than_rw.csv)       | Skulle S, MP, C och V tillsammans få fler mandat än M, KD, SD och L tillsammans? | ✓     | ✓         | ✓      | ✓    | ✓         |          |
+| [`does_rw_get_more_seats_than_lw`](data/clean/does_rw_get_more_seats_than_lw.csv)       | Skulle M, KD, SD och L tillsammans få fler mandat än S, MP, C och V tillsammans? | ✓     | ✓         | ✓      | ✓    | ✓         |          |
+| [`does_M_L_KD_SD_have_seat_majority`](data/clean/does_M_L_KD_SD_have_seat_majority.csv) | Får Kristerssons underlag (M, L, KD, SD) en majoritet av mandaten?                | ✓     | ✓         | ✓      | ✓    | ✓         |          |
+| [`does_C_S_V_MP_have_seat_majority`](data/clean/does_C_S_V_MP_have_seat_majority.csv)   | Får Anderssons underlag (C, S, V, MP) en majoritet av mandaten?                   | ✓     | ✓         | ✓      | ✓    | ✓         |          |
+| [`is_M_larger_than_SD`](data/clean/is_M_larger_than_SD.csv)                             | Är M större än SD?                                                              | ✓     | ✓         |         | ✓    |            |          |
+| [`is_SD_larger_than_M`](data/clean/is_SD_larger_than_M.csv)                             | Är SD större än M?                                                              | ✓     | ✓         |         | ✓    |            |          |
+| [`is_L_above_4_pct`](data/clean/is_L_above_4_pct.csv)                                   | Ligger L över spärren?                                                           | ✓     | ✓         | ✓      | ✓    |            |          |
+| [`does_S_get_most_votes`](data/clean/does_S_get_most_votes.csv)                         | Blir S största parti (flest röster)?                                             | ✓     | ✓         | ✓      | ✓    |            |          |
+| [`does_SD_get_most_votes`](data/clean/does_SD_get_most_votes.csv)                       | Blir SD största parti (flest röster)?                                            | ✓     | ✓         | ✓      | ✓    |            |          |
+| [`does_M_get_most_votes`](data/clean/does_M_get_most_votes.csv)                         | Blir M största parti (flest röster)?                                             | ✓     | ✓         | ✓      | ✓    |            |          |
+| [`does_V_get_most_votes`](data/clean/does_V_get_most_votes.csv)                         | Blir V största parti (flest röster)?                                             |        |            | ✓      | ✓    |            |          |
+| [`does_C_get_most_votes`](data/clean/does_C_get_most_votes.csv)                         | Blir C största parti (flest röster)?                                             |        |            | ✓      | ✓    |            |          |
+| [`does_MP_get_most_votes`](data/clean/does_MP_get_most_votes.csv)                       | Blir MP största parti (flest röster)?                                            |        |            | ✓      | ✓    |            |          |
+| [`does_KD_get_most_votes`](data/clean/does_KD_get_most_votes.csv)                       | Blir KD största parti (flest röster)?                                            |        |            | ✓      | ✓    |            |          |
+| [`does_L_get_most_votes`](data/clean/does_L_get_most_votes.csv)                         | Blir L största parti (flest röster)?                                             |        |            | ✓      | ✓    |            |          |
+| [`does_S_get_most_seats`](data/clean/does_S_get_most_seats.csv)                         | Får S flest mandat?                                                               | ✓     | ✓         |         |       | ✓         | ✓       |
+| [`does_SD_get_most_seats`](data/clean/does_SD_get_most_seats.csv)                       | Får SD flest mandat?                                                              | ✓     | ✓         |         |       | ✓         | ✓       |
+| [`does_M_get_most_seats`](data/clean/does_M_get_most_seats.csv)                         | Får M flest mandat?                                                               | ✓     | ✓         |         |       | ✓         | ✓       |
+| [`does_V_get_most_seats`](data/clean/does_V_get_most_seats.csv)                         | Får V flest mandat?                                                               |        |            |         |       | ✓         |          |
+| [`does_C_get_most_seats`](data/clean/does_C_get_most_seats.csv)                         | Får C flest mandat?                                                               |        |            |         |       | ✓         |          |
+| [`does_MP_get_most_seats`](data/clean/does_MP_get_most_seats.csv)                       | Får MP flest mandat?                                                              |        |            |         |       | ✓         |          |
+| [`does_KD_get_most_seats`](data/clean/does_KD_get_most_seats.csv)                       | Får KD flest mandat?                                                              |        |            |         |       | ✓         |          |
+| [`does_L_get_most_seats`](data/clean/does_L_get_most_seats.csv)                         | Får L flest mandat?                                                               |        |            |         |       | ✓         |          |
+| [`does_Andersson_become_pm`](data/clean/does_Andersson_become_pm.csv)                   | Blir Magdalena Andersson statsminister efter valet?                                |        |            | ✓      | ✓    | ✓         | ✓       |
+| [`does_Kristersson_become_pm`](data/clean/does_Kristersson_become_pm.csv)               | Blir Ulf Kristersson statsminister efter valet?                                    |        |            | ✓      | ✓    | ✓         | ✓       |
+| [`does_Akesson_become_pm`](data/clean/does_Akesson_become_pm.csv)                       | Blir Jimmie Åkesson statsminister efter valet?                                    |        |            | ✓      | ✓    | ✓         |          |
+
 <!-- QUESTIONS_TABLE_END -->
 
 ## Data layout
@@ -96,19 +98,13 @@ question with the exact market wording and URL per source.
 
 ## Sources
 
-| Source | Type | What it is |
-| --- | --- | --- |
-| `botten_ada` | Forecast model | [Botten Ada](https://www.bottenada.se)'s published probabilities (poll-based statistical model) |
-| `kambi` | Bookmaker | The Kambi odds network powering **Unibet, Svenska Spel Oddset, ATG and Paf** — these four sites carry identical odds, so they are tracked as one source |
-| `betsson` | Bookmaker | Betsson, the only major independently priced bookmaker with Swedish election markets that is scrapable |
-| `smarkets` | Betting exchange | Peer-to-peer exchange; prices are set by traders, not a bookmaker |
-| `polymarket` | Prediction market | Crypto-based prediction market with substantial volume on Swedish election markets |
-
-Evaluated and rejected: **Bet365** (markets exist but aggressive anti-bot
-protection), **Betfair** and **William Hill** (left the Swedish market /
-geo-blocked), **Pinnacle**, **bwin**, **Coolbet** (no Swedish election
-markets), **Kalshi** (market exists but no liquidity yet — a candidate to add
-later).
+| Source         | Type              | What it is                                                                                                                                                    |
+| -------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `botten_ada` | Forecast model    | [Botten Ada](https://www.bottenada.se)'s published probabilities (poll-based statistical model)                                                                  |
+| `kambi`      | Bookmaker         | The Kambi odds network powering**Unibet, Svenska Spel Oddset, ATG and Paf** — these four sites carry identical odds, so they are tracked as one source |
+| `betsson`    | Bookmaker         | Betsson, the only major independently priced bookmaker with Swedish election markets that is scrapable                                                        |
+| `smarkets`   | Betting exchange  | Peer-to-peer exchange; prices are set by traders, not a bookmaker                                                                                             |
+| `polymarket` | Prediction market | Crypto-based prediction market with substantial volume on Swedish election markets                                                                            |
 
 ## Method: from odds to probabilities
 
