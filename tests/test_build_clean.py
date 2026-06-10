@@ -42,7 +42,7 @@ def test_build_clean(tmp_path):
         ]})
 
     build_clean(raw_dir=tmp_path / "raw", clean_dir=tmp_path / "clean",
-                mappings=MAPPINGS)
+                mappings=MAPPINGS, readme_path=tmp_path / "README.md")
 
     csv_text = (tmp_path / "clean" / "is_L_above_4_pct.csv").read_text()
     lines = csv_text.strip().split("\n")
@@ -57,7 +57,34 @@ def test_build_clean(tmp_path):
 
 def test_build_clean_missing_raw_file_is_skipped(tmp_path, capsys):
     build_clean(raw_dir=tmp_path / "raw", clean_dir=tmp_path / "clean",
-                mappings=MAPPINGS)
+                mappings=MAPPINGS, readme_path=tmp_path / "README.md")
     # no raw data at all -> no csv rows, but no crash
     csv_text = (tmp_path / "clean" / "is_L_above_4_pct.csv").read_text()
     assert csv_text.strip() == "date,botten_ada,kambi"
+
+
+def test_update_readme_table(tmp_path):
+    from pipeline.build_clean import update_readme_table
+
+    readme = tmp_path / "README.md"
+    readme.write_text("# Intro\n\n<!-- QUESTIONS_TABLE_START -->\nold content\n"
+                      "<!-- QUESTIONS_TABLE_END -->\n\n## Next section\n")
+    update_readme_table(MAPPINGS, readme)
+    text = readme.read_text()
+    assert "old content" not in text
+    assert "[`is_L_above_4_pct`](data/clean/is_L_above_4_pct.csv)" in text
+    assert "Ligger L över spärren?" in text
+    assert text.startswith("# Intro\n")
+    assert text.endswith("## Next section\n")
+    # idempotent: running again keeps exactly one table
+    update_readme_table(MAPPINGS, readme)
+    assert readme.read_text() == text
+
+
+def test_update_readme_table_no_markers_is_noop(tmp_path):
+    from pipeline.build_clean import update_readme_table
+
+    readme = tmp_path / "README.md"
+    readme.write_text("# No markers here\n")
+    update_readme_table(MAPPINGS, readme)
+    assert readme.read_text() == "# No markers here\n"

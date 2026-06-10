@@ -9,6 +9,44 @@ odds to this repository, and rebuilds per-question CSV files where every
 source is expressed as a probability — so you can follow how betting markets
 and a statistical forecasting model disagree (or agree) over time.
 
+## Tracked questions
+
+The table below is auto-generated from
+[`pipeline/mappings.yaml`](pipeline/mappings.yaml) on every run. "In Ada"
+marks questions that exist in Botten Ada's question ontology; ✓ per source
+means the question can be derived from that source's markets.
+
+<!-- QUESTIONS_TABLE_START -->
+| Question | Description | In Ada | botten_ada | betsson | kambi | polymarket | smarkets |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [`does_lw_get_more_seats_than_rw`](data/clean/does_lw_get_more_seats_than_rw.csv) | Skulle S, MP, C och V tillsammans få fler mandat än M, KD, SD och L tillsammans? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
+| [`does_rw_get_more_seats_than_lw`](data/clean/does_rw_get_more_seats_than_lw.csv) | Skulle M, KD, SD och L tillsammans få fler mandat än S, MP, C och V tillsammans? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
+| [`does_M_L_KD_SD_have_seat_majority`](data/clean/does_M_L_KD_SD_have_seat_majority.csv) | Får Kristerssons underlag (M, L, KD, SD) en majoritet av mandaten? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
+| [`does_C_S_V_MP_have_seat_majority`](data/clean/does_C_S_V_MP_have_seat_majority.csv) | Får Anderssons underlag (C, S, V, MP) en majoritet av mandaten? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
+| [`is_M_larger_than_SD`](data/clean/is_M_larger_than_SD.csv) | Är M större än SD? | ✓ | ✓ |  | ✓ |  |  |
+| [`is_SD_larger_than_M`](data/clean/is_SD_larger_than_M.csv) | Är SD större än M? | ✓ | ✓ |  | ✓ |  |  |
+| [`is_L_above_4_pct`](data/clean/is_L_above_4_pct.csv) | Ligger L över spärren? | ✓ | ✓ | ✓ | ✓ |  |  |
+| [`does_S_get_most_votes`](data/clean/does_S_get_most_votes.csv) | Blir S största parti (flest röster)? | ✓ | ✓ | ✓ | ✓ |  |  |
+| [`does_SD_get_most_votes`](data/clean/does_SD_get_most_votes.csv) | Blir SD största parti (flest röster)? | ✓ | ✓ | ✓ | ✓ |  |  |
+| [`does_M_get_most_votes`](data/clean/does_M_get_most_votes.csv) | Blir M största parti (flest röster)? | ✓ | ✓ | ✓ | ✓ |  |  |
+| [`does_V_get_most_votes`](data/clean/does_V_get_most_votes.csv) | Blir V största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
+| [`does_C_get_most_votes`](data/clean/does_C_get_most_votes.csv) | Blir C största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
+| [`does_MP_get_most_votes`](data/clean/does_MP_get_most_votes.csv) | Blir MP största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
+| [`does_KD_get_most_votes`](data/clean/does_KD_get_most_votes.csv) | Blir KD största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
+| [`does_L_get_most_votes`](data/clean/does_L_get_most_votes.csv) | Blir L största parti (flest röster)? |  |  | ✓ | ✓ |  |  |
+| [`does_S_get_most_seats`](data/clean/does_S_get_most_seats.csv) | Får S flest mandat? | ✓ | ✓ |  |  | ✓ | ✓ |
+| [`does_SD_get_most_seats`](data/clean/does_SD_get_most_seats.csv) | Får SD flest mandat? | ✓ | ✓ |  |  | ✓ | ✓ |
+| [`does_M_get_most_seats`](data/clean/does_M_get_most_seats.csv) | Får M flest mandat? | ✓ | ✓ |  |  | ✓ | ✓ |
+| [`does_V_get_most_seats`](data/clean/does_V_get_most_seats.csv) | Får V flest mandat? |  |  |  |  | ✓ |  |
+| [`does_C_get_most_seats`](data/clean/does_C_get_most_seats.csv) | Får C flest mandat? |  |  |  |  | ✓ |  |
+| [`does_MP_get_most_seats`](data/clean/does_MP_get_most_seats.csv) | Får MP flest mandat? |  |  |  |  | ✓ |  |
+| [`does_KD_get_most_seats`](data/clean/does_KD_get_most_seats.csv) | Får KD flest mandat? |  |  |  |  | ✓ |  |
+| [`does_L_get_most_seats`](data/clean/does_L_get_most_seats.csv) | Får L flest mandat? |  |  |  |  | ✓ |  |
+| [`does_Andersson_become_pm`](data/clean/does_Andersson_become_pm.csv) | Blir Magdalena Andersson statsminister efter valet? |  |  | ✓ | ✓ | ✓ | ✓ |
+| [`does_Kristersson_become_pm`](data/clean/does_Kristersson_become_pm.csv) | Blir Ulf Kristersson statsminister efter valet? |  |  | ✓ | ✓ | ✓ | ✓ |
+| [`does_Akesson_become_pm`](data/clean/does_Akesson_become_pm.csv) | Blir Jimmie Åkesson statsminister efter valet? |  |  | ✓ | ✓ | ✓ |  |
+<!-- QUESTIONS_TABLE_END -->
+
 ## Data layout
 
 ```

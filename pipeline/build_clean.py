@@ -14,6 +14,10 @@ from .mappings import load_mappings
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_RAW_DIR = REPO_ROOT / "data" / "raw"
 DEFAULT_CLEAN_DIR = REPO_ROOT / "data" / "clean"
+DEFAULT_README = REPO_ROOT / "README.md"
+README_TABLE_START = "<!-- QUESTIONS_TABLE_START -->"
+README_TABLE_END = "<!-- QUESTIONS_TABLE_END -->"
+ALL_SOURCES = ["botten_ada", "betsson", "kambi", "polymarket", "smarkets"]
 
 
 def _source_columns(sources):
@@ -28,7 +32,7 @@ def _load_raw(raw_dir, source, market_slug):
     return json.loads(path.read_text())
 
 
-def build_clean(raw_dir=None, clean_dir=None, mappings=None):
+def build_clean(raw_dir=None, clean_dir=None, mappings=None, readme_path=None):
     raw_dir = Path(raw_dir) if raw_dir else DEFAULT_RAW_DIR
     clean_dir = Path(clean_dir) if clean_dir else DEFAULT_CLEAN_DIR
     clean_dir.mkdir(parents=True, exist_ok=True)
@@ -59,6 +63,38 @@ def build_clean(raw_dir=None, clean_dir=None, mappings=None):
                 writer.writerow([date] + [rows[date].get(c, "") for c in columns])
 
     _write_questions_md(clean_dir, questions, doc_index)
+    update_readme_table(questions, readme_path or DEFAULT_README)
+
+
+def questions_table(questions):
+    """Markdown table of all tracked questions, for the README."""
+    lines = ["| Question | Description | In Ada | " + " | ".join(ALL_SOURCES) + " |",
+             "| --- | --- | --- | " + " | ".join("---" for _ in ALL_SOURCES) + " |"]
+    for question in questions:
+        qid = question["question_id"]
+        cells = ["[`%s`](data/clean/%s.csv)" % (qid, qid),
+                 question["description"],
+                 "✓" if question["in_ada_ontology"] else ""]
+        cells += ["✓" if source in question["sources"] else ""
+                  for source in ALL_SOURCES]
+        lines.append("| " + " | ".join(cells) + " |")
+    return "\n".join(lines)
+
+
+def update_readme_table(questions, readme_path):
+    """Replace the question table between the README marker comments.
+    Does nothing if the file or markers are missing."""
+    path = Path(readme_path)
+    if not path.exists():
+        return
+    text = path.read_text()
+    if README_TABLE_START not in text or README_TABLE_END not in text:
+        return
+    before = text.split(README_TABLE_START)[0]
+    after = text.split(README_TABLE_END)[1]
+    path.write_text(before + README_TABLE_START + "\n"
+                    + questions_table(questions) + "\n"
+                    + README_TABLE_END + after)
 
 
 def _write_questions_md(clean_dir, questions, doc_index):
