@@ -16,6 +16,22 @@
      "price": 0.36
     }
    ]
+  },
+  {
+   "date": "2026-06-11",
+   "fetched_at": "2026-06-11T06:17:05Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.525,
+     "best_bid": 0.5,
+     "best_ask": 0.55
+    },
+    {
+     "label": "No",
+     "price": 0.475
+    }
+   ]
   }
  ],
  "market_name": "Will the Moderate Party (M) win the third most seats in the 2026 Swedish parliamentary election?",
