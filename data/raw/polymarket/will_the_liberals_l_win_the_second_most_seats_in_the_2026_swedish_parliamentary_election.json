@@ -19,17 +19,17 @@
   },
   {
    "date": "2026-06-11",
-   "fetched_at": "2026-06-11T06:17:04Z",
+   "fetched_at": "2026-06-11T06:33:25Z",
    "outcomes": [
     {
      "label": "Yes",
-     "price": 0.0805,
+     "price": 0.0475,
      "best_bid": 0.01,
-     "best_ask": 0.151
+     "best_ask": 0.085
     },
     {
      "label": "No",
-     "price": 0.9195
+     "price": 0.9525
     }
    ]
   }
