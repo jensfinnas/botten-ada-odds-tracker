@@ -32,6 +32,22 @@
      "price": 0.9865
     }
    ]
+  },
+  {
+   "date": "2026-06-12",
+   "fetched_at": "2026-06-12T06:31:49Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0125,
+     "best_bid": 0.012,
+     "best_ask": 0.013
+    },
+    {
+     "label": "No",
+     "price": 0.9875
+    }
+   ]
   }
  ],
  "market_name": "Will the Left Party (V) win the second most seats in the 2026 Swedish parliamentary election?",
@@ -39,5 +55,5 @@
  "event_name": "Sweden Parliamentary Election: 2nd Place",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-2nd-place",
  "odds_format": "probability",
- "volume_usd": 370.287235
+ "volume_usd": 401.05723500000005
 }
