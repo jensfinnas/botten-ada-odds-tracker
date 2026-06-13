@@ -16,6 +16,22 @@
      "line": 20.5
     }
    ]
+  },
+  {
+   "date": "2026-06-13",
+   "fetched_at": "2026-06-13T20:25:12Z",
+   "outcomes": [
+    {
+     "label": "Över",
+     "odds": 1.57,
+     "line": 20.5
+    },
+    {
+     "label": "Under",
+     "odds": 2.25,
+     "line": 20.5
+    }
+   ]
   }
  ],
  "market_name": "Riksdagsvalet 2026: Procent av rösterna: Sverigedemokraterna (SD) – Över-Under",

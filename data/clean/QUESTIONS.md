@@ -54,6 +54,76 @@ In Botten Ada ontology: yes
 | kambi | Vinner flest platser | (s)+(v)+(mp)+(c) | https://www.unibet.se/betting/sports/event/1020265650 |
 | polymarket | Will Tidö parties win a majority in the 2026 Swedish parliamentary elections? | No | https://polymarket.com/event/will-tido-parties-win-a-majority-in-the-2026-swedish-parliamentary-elections-20260603233725849 |
 
+## `does_C_S_V_MP_get_more_votes_than_M_L_KD_SD`
+
+Är S, MP, C och V större än M, KD, SD och L tillsammans?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | does_C_S_V_MP_get_more_votes_than_M_L_KD_SD | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_C_S_V_MP_get_more_votes_than_M_L_KD_SD.json |
+
+## `does_M_L_KD_SD_get_more_votes_than_C_S_V_MP`
+
+Är M, KD, SD och L större än S, MP, C och V tillsammans?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | does_M_L_KD_SD_get_more_votes_than_C_S_V_MP | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_M_L_KD_SD_get_more_votes_than_C_S_V_MP.json |
+
+## `does_S_V_MP_have_vote_majority`
+
+Får Rödgröna (S, V, MP) en majoritet av rösterna?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | does_S_V_MP_have_vote_majority | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_S_V_MP_have_vote_majority.json |
+
+## `does_S_V_MP_have_seat_majority`
+
+Får Rödgröna (S, V, MP) en majoritet av mandaten?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | does_S_V_MP_have_seat_majority | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_S_V_MP_have_seat_majority.json |
+
+## `does_C_S_MP_have_vote_majority`
+
+Får Anderssons underlag (C, S, MP, utan V) en majoritet av rösterna?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | does_C_S_MP_have_vote_majority | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_C_S_MP_have_vote_majority.json |
+
+## `does_C_S_MP_have_seat_majority`
+
+Får Anderssons underlag (C, S, MP, utan V) en majoritet av mandaten?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | does_C_S_MP_have_seat_majority | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_C_S_MP_have_seat_majority.json |
+
+## `does_S_win_but_needs_C_MP_V_to_get_seat_majority`
+
+Behöver S alla tre koalitionspartier (C, MP, V) för majoritet?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | does_S_win_but_needs_C_MP_V_to_get_seat_majority | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_S_win_but_needs_C_MP_V_to_get_seat_majority.json |
+
 ## `is_M_larger_than_SD`
 
 Är M större än SD?
@@ -76,6 +146,26 @@ In Botten Ada ontology: yes
 | botten_ada | is_SD_larger_than_M | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_SD_larger_than_M.json |
 | kambi | Partiet som får flest röster | Sweden Democrats (sd) | https://www.unibet.se/betting/sports/event/1020265650 |
 
+## `is_V_larger_than_C`
+
+Är V större än C?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | is_V_larger_than_C | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_V_larger_than_C.json |
+
+## `does_SD_get_more_votes_than_M_L_KD`
+
+Är SD större än M, KD och L tillsammans?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | does_SD_get_more_votes_than_M_L_KD | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_SD_get_more_votes_than_M_L_KD.json |
+
 ## `is_L_above_4_pct`
 
 Ligger L över spärren?
@@ -87,6 +177,62 @@ In Botten Ada ontology: yes
 | botten_ada | is_L_above_4_pct | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_L_above_4_pct.json |
 | betsson | Riksdagsvalet 2026: Procent av rösterna: Liberalerna (L) – Över-Under | Över (line 4.0) | https://www.betsson.com/sv/odds/politik-och-naringsliv |
 | kambi | Procent mottagna röster - Liberalerna (l) | Over (line 4.0) | https://www.unibet.se/betting/sports/event/1020265650 |
+
+## `is_MP_above_4_pct`
+
+Ligger MP över spärren?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | is_MP_above_4_pct | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_MP_above_4_pct.json |
+| betsson | Riksdagsvalet 2026: Procent av rösterna: Miljöpartiet (MP) – Över-Under | Över (line 4.0) | https://www.betsson.com/sv/odds/politik-och-naringsliv |
+| kambi | Procent mottagna röster - Miljöpartiet (mp) | Over (line 4.0) | https://www.unibet.se/betting/sports/event/1020265650 |
+
+## `is_KD_above_4_pct`
+
+Ligger KD över spärren?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | is_KD_above_4_pct | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_KD_above_4_pct.json |
+| betsson | Riksdagsvalet 2026: Procent av rösterna: Kristdemokraterna (KD) – Över-Under | Över (line 4.0) | https://www.betsson.com/sv/odds/politik-och-naringsliv |
+| kambi | Procent mottagna röster - Kristdemokraterna (kd) | Over (line 4.0) | https://www.unibet.se/betting/sports/event/1020265650 |
+
+## `is_C_above_4_pct`
+
+Ligger C över spärren?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | is_C_above_4_pct | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_C_above_4_pct.json |
+| betsson | Riksdagsvalet 2026: Procent av rösterna: Centerpartiet (C) – Över-Under | Över (line 4.0) | https://www.betsson.com/sv/odds/politik-och-naringsliv |
+| kambi | Procent mottagna röster - Centerpartiet (c) | Over (line 4.0) | https://www.unibet.se/betting/sports/event/1020265650 |
+
+## `is_SD_record_high`
+
+Gör SD sitt bästa val någonsin?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | is_SD_record_high | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_SD_record_high.json |
+
+## `is_S_record_low`
+
+Gör S sitt sämsta val någonsin?
+
+In Botten Ada ontology: yes
+
+| Source | Market | Outcome | URL |
+| --- | --- | --- | --- |
+| botten_ada | is_S_record_low | yes | http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_S_record_low.json |
 
 ## `does_S_get_most_votes`
 

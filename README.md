@@ -23,9 +23,23 @@ means the question can be derived from that source's markets.
 | [`does_rw_get_more_seats_than_lw`](data/clean/does_rw_get_more_seats_than_lw.csv) | Skulle M, KD, SD och L tillsammans få fler mandat än S, MP, C och V tillsammans? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
 | [`does_M_L_KD_SD_have_seat_majority`](data/clean/does_M_L_KD_SD_have_seat_majority.csv) | Får Kristerssons underlag (M, L, KD, SD) en majoritet av mandaten? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
 | [`does_C_S_V_MP_have_seat_majority`](data/clean/does_C_S_V_MP_have_seat_majority.csv) | Får Anderssons underlag (C, S, V, MP) en majoritet av mandaten? | ✓ | ✓ | ✓ | ✓ | ✓ |  |
+| [`does_C_S_V_MP_get_more_votes_than_M_L_KD_SD`](data/clean/does_C_S_V_MP_get_more_votes_than_M_L_KD_SD.csv) | Är S, MP, C och V större än M, KD, SD och L tillsammans? | ✓ | ✓ |  |  |  |  |
+| [`does_M_L_KD_SD_get_more_votes_than_C_S_V_MP`](data/clean/does_M_L_KD_SD_get_more_votes_than_C_S_V_MP.csv) | Är M, KD, SD och L större än S, MP, C och V tillsammans? | ✓ | ✓ |  |  |  |  |
+| [`does_S_V_MP_have_vote_majority`](data/clean/does_S_V_MP_have_vote_majority.csv) | Får Rödgröna (S, V, MP) en majoritet av rösterna? | ✓ | ✓ |  |  |  |  |
+| [`does_S_V_MP_have_seat_majority`](data/clean/does_S_V_MP_have_seat_majority.csv) | Får Rödgröna (S, V, MP) en majoritet av mandaten? | ✓ | ✓ |  |  |  |  |
+| [`does_C_S_MP_have_vote_majority`](data/clean/does_C_S_MP_have_vote_majority.csv) | Får Anderssons underlag (C, S, MP, utan V) en majoritet av rösterna? | ✓ | ✓ |  |  |  |  |
+| [`does_C_S_MP_have_seat_majority`](data/clean/does_C_S_MP_have_seat_majority.csv) | Får Anderssons underlag (C, S, MP, utan V) en majoritet av mandaten? | ✓ | ✓ |  |  |  |  |
+| [`does_S_win_but_needs_C_MP_V_to_get_seat_majority`](data/clean/does_S_win_but_needs_C_MP_V_to_get_seat_majority.csv) | Behöver S alla tre koalitionspartier (C, MP, V) för majoritet? | ✓ | ✓ |  |  |  |  |
 | [`is_M_larger_than_SD`](data/clean/is_M_larger_than_SD.csv) | Är M större än SD? | ✓ | ✓ |  | ✓ |  |  |
 | [`is_SD_larger_than_M`](data/clean/is_SD_larger_than_M.csv) | Är SD större än M? | ✓ | ✓ |  | ✓ |  |  |
+| [`is_V_larger_than_C`](data/clean/is_V_larger_than_C.csv) | Är V större än C? | ✓ | ✓ |  |  |  |  |
+| [`does_SD_get_more_votes_than_M_L_KD`](data/clean/does_SD_get_more_votes_than_M_L_KD.csv) | Är SD större än M, KD och L tillsammans? | ✓ | ✓ |  |  |  |  |
 | [`is_L_above_4_pct`](data/clean/is_L_above_4_pct.csv) | Ligger L över spärren? | ✓ | ✓ | ✓ | ✓ |  |  |
+| [`is_MP_above_4_pct`](data/clean/is_MP_above_4_pct.csv) | Ligger MP över spärren? | ✓ | ✓ | ✓ | ✓ |  |  |
+| [`is_KD_above_4_pct`](data/clean/is_KD_above_4_pct.csv) | Ligger KD över spärren? | ✓ | ✓ | ✓ | ✓ |  |  |
+| [`is_C_above_4_pct`](data/clean/is_C_above_4_pct.csv) | Ligger C över spärren? | ✓ | ✓ | ✓ | ✓ |  |  |
+| [`is_SD_record_high`](data/clean/is_SD_record_high.csv) | Gör SD sitt bästa val någonsin? | ✓ | ✓ |  |  |  |  |
+| [`is_S_record_low`](data/clean/is_S_record_low.csv) | Gör S sitt sämsta val någonsin? | ✓ | ✓ |  |  |  |  |
 | [`does_S_get_most_votes`](data/clean/does_S_get_most_votes.csv) | Blir S största parti (flest röster)? | ✓ | ✓ | ✓ | ✓ |  |  |
 | [`does_SD_get_most_votes`](data/clean/does_SD_get_most_votes.csv) | Blir SD största parti (flest röster)? | ✓ | ✓ | ✓ | ✓ |  |  |
 | [`does_M_get_most_votes`](data/clean/does_M_get_most_votes.csv) | Blir M största parti (flest röster)? | ✓ | ✓ | ✓ | ✓ |  |  |

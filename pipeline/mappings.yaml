@@ -77,6 +77,48 @@ questions:
         market_slug: will_tido_parties_win_a_majority_in_the_2026_swedish_parliamentary_elections_20260603233725849
         outcome_label: "No"
 
+  - question_id: does_C_S_V_MP_get_more_votes_than_M_L_KD_SD
+    description: "Är S, MP, C och V större än M, KD, SD och L tillsammans?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_C_S_V_MP_get_more_votes_than_M_L_KD_SD, outcome_label: "yes"}
+
+  - question_id: does_M_L_KD_SD_get_more_votes_than_C_S_V_MP
+    description: "Är M, KD, SD och L större än S, MP, C och V tillsammans?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_M_L_KD_SD_get_more_votes_than_C_S_V_MP, outcome_label: "yes"}
+
+  - question_id: does_S_V_MP_have_vote_majority
+    description: "Får Rödgröna (S, V, MP) en majoritet av rösterna?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_S_V_MP_have_vote_majority, outcome_label: "yes"}
+
+  - question_id: does_S_V_MP_have_seat_majority
+    description: "Får Rödgröna (S, V, MP) en majoritet av mandaten?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_S_V_MP_have_seat_majority, outcome_label: "yes"}
+
+  - question_id: does_C_S_MP_have_vote_majority
+    description: "Får Anderssons underlag (C, S, MP, utan V) en majoritet av rösterna?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_C_S_MP_have_vote_majority, outcome_label: "yes"}
+
+  - question_id: does_C_S_MP_have_seat_majority
+    description: "Får Anderssons underlag (C, S, MP, utan V) en majoritet av mandaten?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_C_S_MP_have_seat_majority, outcome_label: "yes"}
+
+  - question_id: does_S_win_but_needs_C_MP_V_to_get_seat_majority
+    description: "Behöver S alla tre koalitionspartier (C, MP, V) för majoritet?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_S_win_but_needs_C_MP_V_to_get_seat_majority, outcome_label: "yes"}
+
   - question_id: is_M_larger_than_SD
     description: "Är M större än SD?"
     in_ada_ontology: true
@@ -95,6 +137,18 @@ questions:
         market_slug: 2026_swedish_general_election_party_to_get_most_votes_moderate_party_m_sweden_democrats_sd
         outcome_label: "Sweden Democrats (sd)"
 
+  - question_id: is_V_larger_than_C
+    description: "Är V större än C?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: is_V_larger_than_C, outcome_label: "yes"}
+
+  - question_id: does_SD_get_more_votes_than_M_L_KD
+    description: "Är SD större än M, KD och L tillsammans?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: does_SD_get_more_votes_than_M_L_KD, outcome_label: "yes"}
+
   - question_id: is_L_above_4_pct
     description: "Ligger L över spärren?"
     in_ada_ontology: true
@@ -108,6 +162,60 @@ questions:
         market_slug: riksdagsvalet_2026_procent_av_rosterna_liberalerna_l_over_under
         outcome_label: "Över"
         require_line: 4.0
+
+  - question_id: is_MP_above_4_pct
+    description: "Ligger MP över spärren?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: is_MP_above_4_pct, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_percentage_of_votes_obtained_green_party_mp
+        outcome_label: "Over"
+        require_line: 4.0
+      betsson:
+        market_slug: riksdagsvalet_2026_procent_av_rosterna_miljopartiet_mp_over_under
+        outcome_label: "Över"
+        require_line: 4.0
+
+  - question_id: is_KD_above_4_pct
+    description: "Ligger KD över spärren?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: is_KD_above_4_pct, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_percentage_of_votes_obtained_christian_democrats_kd
+        outcome_label: "Over"
+        require_line: 4.0
+      betsson:
+        market_slug: riksdagsvalet_2026_procent_av_rosterna_kristdemokraterna_kd_over_under
+        outcome_label: "Över"
+        require_line: 4.0
+
+  - question_id: is_C_above_4_pct
+    description: "Ligger C över spärren?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: is_C_above_4_pct, outcome_label: "yes"}
+      kambi:
+        market_slug: 2026_swedish_general_election_percentage_of_votes_obtained_centre_party_c
+        outcome_label: "Over"
+        require_line: 4.0
+      betsson:
+        market_slug: riksdagsvalet_2026_procent_av_rosterna_centerpartiet_c_over_under
+        outcome_label: "Över"
+        require_line: 4.0
+
+  - question_id: is_SD_record_high
+    description: "Gör SD sitt bästa val någonsin?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: is_SD_record_high, outcome_label: "yes"}
+
+  - question_id: is_S_record_low
+    description: "Gör S sitt sämsta val någonsin?"
+    in_ada_ontology: true
+    sources:
+      botten_ada: {market_slug: is_S_record_low, outcome_label: "yes"}
 
   # --- Largest party by votes (S/SD/M in Ada ontology; smaller parties not) ---
   - question_id: does_S_get_most_votes

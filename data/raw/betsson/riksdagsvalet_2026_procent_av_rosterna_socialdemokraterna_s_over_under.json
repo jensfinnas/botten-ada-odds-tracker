@@ -16,6 +16,22 @@
      "line": 33.5
     }
    ]
+  },
+  {
+   "date": "2026-06-13",
+   "fetched_at": "2026-06-13T20:25:12Z",
+   "outcomes": [
+    {
+     "label": "Över",
+     "odds": 2.05,
+     "line": 33.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.7,
+     "line": 33.5
+    }
+   ]
   }
  ],
  "market_name": "Riksdagsvalet 2026: Procent av rösterna: Socialdemokraterna (S) – Över-Under",

@@ -16,6 +16,22 @@
      "line": 4.0
     }
    ]
+  },
+  {
+   "date": "2026-06-13",
+   "fetched_at": "2026-06-13T20:25:12Z",
+   "outcomes": [
+    {
+     "label": "Över",
+     "odds": 2.45,
+     "line": 4.0
+    },
+    {
+     "label": "Under",
+     "odds": 1.49,
+     "line": 4.0
+    }
+   ]
   }
  ],
  "market_name": "Riksdagsvalet 2026: Procent av rösterna: Liberalerna (L) – Över-Under",

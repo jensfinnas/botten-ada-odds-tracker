@@ -1,0 +1,20 @@
+{
+ "source": "botten_ada",
+ "observations": [
+  {
+   "date": "2026-06-13",
+   "fetched_at": "2026-06-13T20:24:56Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.037
+    }
+   ]
+  }
+ ],
+ "market_name": "does_SD_get_more_votes_than_M_L_KD",
+ "market_id": "does_SD_get_more_votes_than_M_L_KD",
+ "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_SD_get_more_votes_than_M_L_KD.json",
+ "odds_format": "probability",
+ "model_run": "fc2026_final_x_drift_8m10_20260613_092102_14525"
+}
