@@ -19,7 +19,39 @@
   },
   {
    "date": "2026-06-11",
-   "fetched_at": "2026-06-11T06:17:04Z",
+   "fetched_at": "2026-06-11T06:33:25Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.013,
+     "best_bid": 0.009,
+     "best_ask": 0.017
+    },
+    {
+     "label": "No",
+     "price": 0.987
+    }
+   ]
+  },
+  {
+   "date": "2026-06-12",
+   "fetched_at": "2026-06-12T06:31:49Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.012,
+     "best_bid": 0.007,
+     "best_ask": 0.017
+    },
+    {
+     "label": "No",
+     "price": 0.988
+    }
+   ]
+  },
+  {
+   "date": "2026-06-13",
+   "fetched_at": "2026-06-13T06:26:24Z",
    "outcomes": [
     {
      "label": "Yes",
@@ -39,5 +71,5 @@
  "event_name": "Sweden Parliamentary Election: 2nd Place",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-2nd-place",
  "odds_format": "probability",
- "volume_usd": 507.31075000000004
+ "volume_usd": 513.4707500000001
 }

@@ -13,7 +13,27 @@
   },
   {
    "date": "2026-06-11",
-   "fetched_at": "2026-06-11T06:17:03Z",
+   "fetched_at": "2026-06-11T06:33:24Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 1.0
+    }
+   ]
+  },
+  {
+   "date": "2026-06-12",
+   "fetched_at": "2026-06-12T06:31:48Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 1.0
+    }
+   ]
+  },
+  {
+   "date": "2026-06-13",
+   "fetched_at": "2026-06-13T06:26:23Z",
    "outcomes": [
     {
      "label": "yes",

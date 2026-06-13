@@ -19,7 +19,39 @@
   },
   {
    "date": "2026-06-11",
-   "fetched_at": "2026-06-11T06:17:05Z",
+   "fetched_at": "2026-06-11T06:33:25Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0045,
+     "best_bid": 0.003,
+     "best_ask": 0.006
+    },
+    {
+     "label": "No",
+     "price": 0.9955
+    }
+   ]
+  },
+  {
+   "date": "2026-06-12",
+   "fetched_at": "2026-06-12T06:31:49Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0045,
+     "best_bid": 0.003,
+     "best_ask": 0.006
+    },
+    {
+     "label": "No",
+     "price": 0.9955
+    }
+   ]
+  },
+  {
+   "date": "2026-06-13",
+   "fetched_at": "2026-06-13T06:26:24Z",
    "outcomes": [
     {
      "label": "Yes",
@@ -39,5 +71,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 290468.3790219998
+ "volume_usd": 290485.1890219998
 }

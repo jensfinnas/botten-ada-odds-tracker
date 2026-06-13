@@ -19,7 +19,7 @@
   },
   {
    "date": "2026-06-11",
-   "fetched_at": "2026-06-11T06:17:05Z",
+   "fetched_at": "2026-06-11T06:33:25Z",
    "outcomes": [
     {
      "label": "Yes",
@@ -30,6 +30,38 @@
     {
      "label": "No",
      "price": 0.475
+    }
+   ]
+  },
+  {
+   "date": "2026-06-12",
+   "fetched_at": "2026-06-12T06:31:49Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.53,
+     "best_bid": 0.38,
+     "best_ask": 0.68
+    },
+    {
+     "label": "No",
+     "price": 0.47
+    }
+   ]
+  },
+  {
+   "date": "2026-06-13",
+   "fetched_at": "2026-06-13T06:26:24Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.505,
+     "best_bid": 0.5,
+     "best_ask": 0.51
+    },
+    {
+     "label": "No",
+     "price": 0.495
     }
    ]
   }
