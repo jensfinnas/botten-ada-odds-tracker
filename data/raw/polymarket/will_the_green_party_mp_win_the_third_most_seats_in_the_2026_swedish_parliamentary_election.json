@@ -64,6 +64,22 @@
      "price": 0.9785
     }
    ]
+  },
+  {
+   "date": "2026-06-14",
+   "fetched_at": "2026-06-14T06:31:32Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0205,
+     "best_bid": 0.016,
+     "best_ask": 0.025
+    },
+    {
+     "label": "No",
+     "price": 0.9795
+    }
+   ]
   }
  ],
  "market_name": "Will the Green Party (MP) win the third most seats in the 2026 Swedish parliamentary election?",
