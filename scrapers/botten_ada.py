@@ -22,7 +22,7 @@ def mapped_question_ids():
 
 
 def parse_question(question_id, payload):
-    probability = payload["questions"][question_id]["now"]["prob"]
+    probability = payload["questions"][question_id]["election"]["prob"]
     market = {
         "slug": question_id,
         "market_name": question_id,

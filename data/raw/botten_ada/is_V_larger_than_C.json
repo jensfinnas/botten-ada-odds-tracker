@@ -2,22 +2,12 @@
  "source": "botten_ada",
  "observations": [
   {
-   "date": "2026-06-13",
-   "fetched_at": "2026-06-13T20:24:56Z",
-   "outcomes": [
-    {
-     "label": "yes",
-     "probability": 0.897
-    }
-   ]
-  },
-  {
    "date": "2026-06-14",
-   "fetched_at": "2026-06-14T06:31:28Z",
+   "fetched_at": "2026-06-14T08:59:12Z",
    "outcomes": [
     {
      "label": "yes",
-     "probability": 0.897
+     "probability": 0.856
     }
    ]
   }

@@ -18,6 +18,9 @@ DEFAULT_README = REPO_ROOT / "README.md"
 README_TABLE_START = "<!-- QUESTIONS_TABLE_START -->"
 README_TABLE_END = "<!-- QUESTIONS_TABLE_END -->"
 ALL_SOURCES = ["botten_ada", "betsson", "kambi", "polymarket", "smarkets"]
+# Botten Ada used payload["questions"][q]["now"]["prob"] until 2026-06-14; earlier
+# rows are dropped on rebuild. Betting-source history before this date is kept.
+MIN_CLEAN_DATE = "2026-06-14"
 
 
 def _source_columns(sources):
@@ -60,6 +63,8 @@ def build_clean(raw_dir=None, clean_dir=None, mappings=None, readme_path=None):
             writer = csv.writer(handle)
             writer.writerow(["date"] + columns)
             for date in sorted(rows):
+                if date < MIN_CLEAN_DATE:
+                    continue
                 writer.writerow([date] + [rows[date].get(c, "") for c in columns])
 
     _write_questions_md(clean_dir, questions, doc_index)

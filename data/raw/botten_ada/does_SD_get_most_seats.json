@@ -2,62 +2,12 @@
  "source": "botten_ada",
  "observations": [
   {
-   "date": "2026-06-10",
-   "fetched_at": "2026-06-10T14:44:22Z",
-   "outcomes": [
-    {
-     "label": "yes",
-     "probability": 0.0
-    }
-   ]
-  },
-  {
-   "date": "2026-06-11",
-   "fetched_at": "2026-06-11T06:33:24Z",
-   "outcomes": [
-    {
-     "label": "yes",
-     "probability": 0.0
-    }
-   ]
-  },
-  {
-   "date": "2026-06-12",
-   "fetched_at": "2026-06-12T06:31:48Z",
-   "outcomes": [
-    {
-     "label": "yes",
-     "probability": 0.0
-    }
-   ]
-  },
-  {
-   "date": "2026-06-13",
-   "fetched_at": "2026-06-13T06:26:23Z",
-   "outcomes": [
-    {
-     "label": "yes",
-     "probability": 0.0
-    }
-   ]
-  },
-  {
-   "date": "2026-06-13",
-   "fetched_at": "2026-06-13T20:24:57Z",
-   "outcomes": [
-    {
-     "label": "yes",
-     "probability": 0.002
-    }
-   ]
-  },
-  {
    "date": "2026-06-14",
-   "fetched_at": "2026-06-14T06:31:31Z",
+   "fetched_at": "2026-06-14T08:59:13Z",
    "outcomes": [
     {
      "label": "yes",
-     "probability": 0.002
+     "probability": 0.003
     }
    ]
   }

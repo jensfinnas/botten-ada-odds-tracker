@@ -25,18 +25,18 @@ def test_build_clean(tmp_path):
         "source": "botten_ada", "market_name": "is_L_above_4_pct",
         "url": "http://example.com", "odds_format": "probability",
         "observations": [
-            {"date": "2026-06-10", "outcomes": [{"label": "yes", "probability": 0.62}]},
-            {"date": "2026-06-11", "outcomes": [{"label": "yes", "probability": 0.65}]},
+            {"date": "2026-06-14", "outcomes": [{"label": "yes", "probability": 0.62}]},
+            {"date": "2026-06-15", "outcomes": [{"label": "yes", "probability": 0.65}]},
         ]})
     _write_raw(tmp_path, "kambi", "ou_l", {
         "source": "kambi", "market_name": "Percentage of votes - L",
         "url": "http://example.com", "odds_format": "decimal",
         "observations": [
-            {"date": "2026-06-10", "outcomes": [
+            {"date": "2026-06-14", "outcomes": [
                 {"label": "Over", "odds": 2.3, "line": 4.0},
                 {"label": "Under", "odds": 1.55, "line": 4.0}]},
             # day 2: line moved -> kambi cell must be empty
-            {"date": "2026-06-11", "outcomes": [
+            {"date": "2026-06-15", "outcomes": [
                 {"label": "Over", "odds": 1.9, "line": 4.5},
                 {"label": "Under", "odds": 1.8, "line": 4.5}]},
         ]})
@@ -47,8 +47,8 @@ def test_build_clean(tmp_path):
     csv_text = (tmp_path / "clean" / "is_L_above_4_pct.csv").read_text()
     lines = csv_text.strip().split("\n")
     assert lines[0] == "date,botten_ada,kambi"
-    assert lines[1] == "2026-06-10,0.62,0.4026"
-    assert lines[2] == "2026-06-11,0.65,"
+    assert lines[1] == "2026-06-14,0.62,0.4026"
+    assert lines[2] == "2026-06-15,0.65,"
 
     questions_md = (tmp_path / "clean" / "QUESTIONS.md").read_text()
     assert "is_L_above_4_pct" in questions_md
