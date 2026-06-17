@@ -144,6 +144,24 @@
      "odds": 3.5
     }
    ]
+  },
+  {
+   "date": "2026-06-17",
+   "fetched_at": "2026-06-17T06:42:45Z",
+   "outcomes": [
+    {
+     "label": "Jimmie Åkesson",
+     "odds": 15.0
+    },
+    {
+     "label": "Magdalena Andersson",
+     "odds": 1.2
+    },
+    {
+     "label": "Ulf Kristersson",
+     "odds": 3.75
+    }
+   ]
   }
  ],
  "market_name": "Kandidat som utnämns till statsminister",

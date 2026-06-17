@@ -30,11 +30,21 @@
      "probability": 0.871
     }
    ]
+  },
+  {
+   "date": "2026-06-17",
+   "fetched_at": "2026-06-17T06:42:44Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.868
+    }
+   ]
   }
  ],
  "market_name": "is_KD_above_4_pct",
  "market_id": "is_KD_above_4_pct",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_KD_above_4_pct.json",
  "odds_format": "probability",
- "model_run": "fc2026_final_x_drift_8m10_20260613_092102_14525"
+ "model_run": "fc2026_final_x_drift_8m10_20260616_192219_13991"
 }
