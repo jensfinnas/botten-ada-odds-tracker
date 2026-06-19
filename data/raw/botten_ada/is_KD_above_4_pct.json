@@ -50,6 +50,16 @@
      "probability": 0.858
     }
    ]
+  },
+  {
+   "date": "2026-06-19",
+   "fetched_at": "2026-06-19T06:44:41Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.858
+    }
+   ]
   }
  ],
  "market_name": "is_KD_above_4_pct",

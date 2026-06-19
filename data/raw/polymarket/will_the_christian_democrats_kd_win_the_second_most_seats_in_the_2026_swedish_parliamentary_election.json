@@ -144,6 +144,22 @@
      "price": 0.9945
     }
    ]
+  },
+  {
+   "date": "2026-06-19",
+   "fetched_at": "2026-06-19T06:44:43Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0055,
+     "best_bid": 0.003,
+     "best_ask": 0.008
+    },
+    {
+     "label": "No",
+     "price": 0.9945
+    }
+   ]
   }
  ],
  "market_name": "Will the Christian Democrats (KD) win the second most seats in the 2026 Swedish parliamentary election?",
@@ -151,5 +167,5 @@
  "event_name": "Sweden Parliamentary Election: 2nd Place",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-2nd-place",
  "odds_format": "probability",
- "volume_usd": 935.78298
+ "volume_usd": 1135.7889799999998
 }
