@@ -90,11 +90,21 @@
      "probability": 0.965
     }
    ]
+  },
+  {
+   "date": "2026-06-23",
+   "fetched_at": "2026-06-23T06:22:33Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.965
+    }
+   ]
   }
  ],
  "market_name": "is_C_above_4_pct",
  "market_id": "is_C_above_4_pct",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_C_above_4_pct.json",
  "odds_format": "probability",
- "model_run": "ada_refit_20260617_053707_4710"
+ "model_run": "ada_refit_20260622_080923_6475"
 }

@@ -90,11 +90,21 @@
      "probability": 0.326
     }
    ]
+  },
+  {
+   "date": "2026-06-23",
+   "fetched_at": "2026-06-23T06:22:31Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.319
+    }
+   ]
   }
  ],
  "market_name": "is_M_larger_than_SD",
  "market_id": "is_M_larger_than_SD",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_M_larger_than_SD.json",
  "odds_format": "probability",
- "model_run": "ada_refit_20260617_053707_4710"
+ "model_run": "ada_refit_20260622_080923_6475"
 }
