@@ -100,11 +100,21 @@
      "probability": 0.355
     }
    ]
+  },
+  {
+   "date": "2026-06-24",
+   "fetched_at": "2026-06-24T06:19:50Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.366
+    }
+   ]
   }
  ],
  "market_name": "does_S_V_MP_have_seat_majority",
  "market_id": "does_S_V_MP_have_seat_majority",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_S_V_MP_have_seat_majority.json",
  "odds_format": "probability",
- "model_run": "ada_refit_20260622_080923_6475"
+ "model_run": "ada_refit_20260623_061947_22619"
 }
