@@ -256,6 +256,22 @@
      "price": 0.295
     }
    ]
+  },
+  {
+   "date": "2026-06-26",
+   "fetched_at": "2026-06-26T06:23:06Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.715,
+     "best_bid": 0.71,
+     "best_ask": 0.72
+    },
+    {
+     "label": "No",
+     "price": 0.285
+    }
+   ]
   }
  ],
  "market_name": "Will the Moderate Party (M) win the third most seats in the 2026 Swedish parliamentary election?",
@@ -263,5 +279,5 @@
  "event_name": "Sweden Parliamentary Election: 3rd Place",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-3rd-place",
  "odds_format": "probability",
- "volume_usd": 2887.3892280000005
+ "volume_usd": 3243.5392280000005
 }
