@@ -272,6 +272,22 @@
      "price": 0.9885
     }
    ]
+  },
+  {
+   "date": "2026-06-27",
+   "fetched_at": "2026-06-27T06:11:05Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0115,
+     "best_bid": 0.01,
+     "best_ask": 0.013
+    },
+    {
+     "label": "No",
+     "price": 0.9885
+    }
+   ]
   }
  ],
  "market_name": "Will the Left Party (V) win the second most seats in the 2026 Swedish parliamentary election?",

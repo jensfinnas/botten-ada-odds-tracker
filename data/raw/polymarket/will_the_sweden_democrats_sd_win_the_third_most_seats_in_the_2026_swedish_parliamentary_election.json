@@ -272,6 +272,22 @@
      "price": 0.725
     }
    ]
+  },
+  {
+   "date": "2026-06-27",
+   "fetched_at": "2026-06-27T06:11:05Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.24,
+     "best_bid": 0.23,
+     "best_ask": 0.25
+    },
+    {
+     "label": "No",
+     "price": 0.76
+    }
+   ]
   }
  ],
  "market_name": "Will the Sweden Democrats (SD) win the third most seats in the 2026 Swedish parliamentary election?",
@@ -279,5 +295,5 @@
  "event_name": "Sweden Parliamentary Election: 3rd Place",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-3rd-place",
  "odds_format": "probability",
- "volume_usd": 2393.567987
+ "volume_usd": 2538.567987
 }

@@ -288,6 +288,22 @@
      "line": 5.5
     }
    ]
+  },
+  {
+   "date": "2026-06-27",
+   "fetched_at": "2026-06-27T06:11:05Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.9,
+     "line": 5.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.8,
+     "line": 5.5
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Centerpartiet (c)",
