@@ -140,6 +140,16 @@
      "probability": 0.952
     }
    ]
+  },
+  {
+   "date": "2026-06-28",
+   "fetched_at": "2026-06-28T06:29:05Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.952
+    }
+   ]
   }
  ],
  "market_name": "is_MP_above_4_pct",
