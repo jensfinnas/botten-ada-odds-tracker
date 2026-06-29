@@ -150,6 +150,16 @@
      "probability": 1.0
     }
    ]
+  },
+  {
+   "date": "2026-06-29",
+   "fetched_at": "2026-06-29T06:32:21Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 1.0
+    }
+   ]
   }
  ],
  "market_name": "does_S_get_most_seats",
