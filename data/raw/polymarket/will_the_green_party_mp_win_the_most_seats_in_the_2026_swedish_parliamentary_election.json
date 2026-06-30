@@ -320,6 +320,22 @@
      "price": 0.993
     }
    ]
+  },
+  {
+   "date": "2026-06-30",
+   "fetched_at": "2026-06-30T06:25:02Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.007,
+     "best_bid": 0.005,
+     "best_ask": 0.009
+    },
+    {
+     "label": "No",
+     "price": 0.993
+    }
+   ]
   }
  ],
  "market_name": "Will the Green Party (MP) win the most seats in the 2026 Swedish parliamentary election?",
@@ -327,5 +343,5 @@
  "event_name": "Sweden Parliamentary Election Winner",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-winner",
  "odds_format": "probability",
- "volume_usd": 100900.21250100006
+ "volume_usd": 100943.32958100007
 }
