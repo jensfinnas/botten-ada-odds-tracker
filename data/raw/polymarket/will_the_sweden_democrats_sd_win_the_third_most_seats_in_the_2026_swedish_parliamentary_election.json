@@ -384,6 +384,22 @@
      "price": 0.82
     }
    ]
+  },
+  {
+   "date": "2026-07-04",
+   "fetched_at": "2026-07-04T07:38:18Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.18,
+     "best_bid": 0.17,
+     "best_ask": 0.19
+    },
+    {
+     "label": "No",
+     "price": 0.82
+    }
+   ]
   }
  ],
  "market_name": "Will the Sweden Democrats (SD) win the third most seats in the 2026 Swedish parliamentary election?",
