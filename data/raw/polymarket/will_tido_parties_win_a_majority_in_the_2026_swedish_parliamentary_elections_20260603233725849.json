@@ -400,6 +400,22 @@
      "price": 0.9
     }
    ]
+  },
+  {
+   "date": "2026-07-05",
+   "fetched_at": "2026-07-05T07:52:05Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.1,
+     "best_bid": 0.09,
+     "best_ask": 0.11
+    },
+    {
+     "label": "No",
+     "price": 0.9
+    }
+   ]
   }
  ],
  "market_name": "Will Tidö parties win a majority in the 2026 Swedish parliamentary elections?",
