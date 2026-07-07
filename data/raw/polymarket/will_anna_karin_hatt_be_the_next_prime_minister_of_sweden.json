@@ -432,6 +432,22 @@
      "price": 0.9975
     }
    ]
+  },
+  {
+   "date": "2026-07-07",
+   "fetched_at": "2026-07-07T08:15:34Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0025,
+     "best_bid": 0.002,
+     "best_ask": 0.003
+    },
+    {
+     "label": "No",
+     "price": 0.9975
+    }
+   ]
   }
  ],
  "market_name": "Will Anna-Karin Hatt be the next Prime Minister of Sweden?",
@@ -439,5 +455,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 29135.68057599998
+ "volume_usd": 29268.68057599998
 }
