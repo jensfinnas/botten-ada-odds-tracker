@@ -464,6 +464,22 @@
      "price": 0.9725
     }
    ]
+  },
+  {
+   "date": "2026-07-09",
+   "fetched_at": "2026-07-09T08:19:18Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0285,
+     "best_bid": 0.01,
+     "best_ask": 0.047
+    },
+    {
+     "label": "No",
+     "price": 0.9715
+    }
+   ]
   }
  ],
  "market_name": "Will the Liberals (L) win the third most seats in the 2026 Swedish parliamentary election?",
@@ -471,5 +487,5 @@
  "event_name": "Sweden Parliamentary Election: 3rd Place",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-3rd-place",
  "odds_format": "probability",
- "volume_usd": 1313.9175669999997
+ "volume_usd": 1343.9175669999997
 }
