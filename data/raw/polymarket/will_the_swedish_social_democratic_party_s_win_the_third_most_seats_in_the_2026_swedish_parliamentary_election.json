@@ -480,6 +480,22 @@
      "price": 0.9955
     }
    ]
+  },
+  {
+   "date": "2026-07-10",
+   "fetched_at": "2026-07-10T08:15:45Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0035,
+     "best_bid": 0.001,
+     "best_ask": 0.006
+    },
+    {
+     "label": "No",
+     "price": 0.9965
+    }
+   ]
   }
  ],
  "market_name": "Will the Swedish Social Democratic Party (S) win the third most seats in the 2026 Swedish parliamentary election?",

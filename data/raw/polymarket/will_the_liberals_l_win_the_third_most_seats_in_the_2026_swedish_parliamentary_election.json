@@ -480,6 +480,22 @@
      "price": 0.9715
     }
    ]
+  },
+  {
+   "date": "2026-07-10",
+   "fetched_at": "2026-07-10T08:15:45Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0325,
+     "best_bid": 0.01,
+     "best_ask": 0.055
+    },
+    {
+     "label": "No",
+     "price": 0.9675
+    }
+   ]
   }
  ],
  "market_name": "Will the Liberals (L) win the third most seats in the 2026 Swedish parliamentary election?",
