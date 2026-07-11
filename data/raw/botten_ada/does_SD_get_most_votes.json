@@ -270,6 +270,16 @@
      "probability": 0.0
     }
    ]
+  },
+  {
+   "date": "2026-07-11",
+   "fetched_at": "2026-07-11T07:06:38Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.0
+    }
+   ]
   }
  ],
  "market_name": "does_SD_get_most_votes",
