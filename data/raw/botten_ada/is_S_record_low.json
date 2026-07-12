@@ -280,6 +280,16 @@
      "probability": 0.046
     }
    ]
+  },
+  {
+   "date": "2026-07-12",
+   "fetched_at": "2026-07-12T07:24:21Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.046
+    }
+   ]
   }
  ],
  "market_name": "is_S_record_low",

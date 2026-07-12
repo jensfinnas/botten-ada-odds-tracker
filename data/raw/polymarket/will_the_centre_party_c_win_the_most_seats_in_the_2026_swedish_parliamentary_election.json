@@ -512,6 +512,22 @@
      "price": 0.9985
     }
    ]
+  },
+  {
+   "date": "2026-07-12",
+   "fetched_at": "2026-07-12T07:24:23Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0015,
+     "best_bid": 0.001,
+     "best_ask": 0.002
+    },
+    {
+     "label": "No",
+     "price": 0.9985
+    }
+   ]
   }
  ],
  "market_name": "Will the Centre Party (C) win the most seats in the 2026 Swedish parliamentary election?",
@@ -519,5 +535,5 @@
  "event_name": "Sweden Parliamentary Election Winner",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-winner",
  "odds_format": "probability",
- "volume_usd": 23922.547862
+ "volume_usd": 24663.162861999997
 }
