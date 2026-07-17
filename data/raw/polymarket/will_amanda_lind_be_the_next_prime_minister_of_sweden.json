@@ -592,6 +592,22 @@
      "price": 0.9985
     }
    ]
+  },
+  {
+   "date": "2026-07-17",
+   "fetched_at": "2026-07-17T07:11:28Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0015,
+     "best_bid": 0.001,
+     "best_ask": 0.002
+    },
+    {
+     "label": "No",
+     "price": 0.9985
+    }
+   ]
   }
  ],
  "market_name": "Will Amanda Lind be the next Prime Minister of Sweden?",
