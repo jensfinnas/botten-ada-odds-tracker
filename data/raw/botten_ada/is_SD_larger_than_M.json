@@ -360,6 +360,16 @@
      "probability": 0.646
     }
    ]
+  },
+  {
+   "date": "2026-07-20",
+   "fetched_at": "2026-07-20T07:52:14Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.646
+    }
+   ]
   }
  ],
  "market_name": "is_SD_larger_than_M",
