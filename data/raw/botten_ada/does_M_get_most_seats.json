@@ -410,6 +410,16 @@
      "probability": 0.001
     }
    ]
+  },
+  {
+   "date": "2026-07-25",
+   "fetched_at": "2026-07-25T07:10:13Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.001
+    }
+   ]
   }
  ],
  "market_name": "does_M_get_most_seats",
