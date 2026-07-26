@@ -420,6 +420,16 @@
      "probability": 0.224
     }
    ]
+  },
+  {
+   "date": "2026-07-26",
+   "fetched_at": "2026-07-26T07:30:46Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.224
+    }
+   ]
   }
  ],
  "market_name": "is_SD_record_high",
