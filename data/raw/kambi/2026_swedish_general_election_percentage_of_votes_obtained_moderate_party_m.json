@@ -768,6 +768,22 @@
      "line": 17.5
     }
    ]
+  },
+  {
+   "date": "2026-07-27",
+   "fetched_at": "2026-07-27T08:22:10Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.95,
+     "line": 17.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.75,
+     "line": 17.5
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Moderaterna (m)",

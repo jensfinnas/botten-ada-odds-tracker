@@ -752,6 +752,22 @@
      "price": 0.996
     }
    ]
+  },
+  {
+   "date": "2026-07-27",
+   "fetched_at": "2026-07-27T08:22:10Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0025,
+     "best_bid": 0.002,
+     "best_ask": 0.003
+    },
+    {
+     "label": "No",
+     "price": 0.9975
+    }
+   ]
   }
  ],
  "market_name": "Will Nooshi Dadgostar be the next Prime Minister of Sweden?",
@@ -759,5 +775,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 892898.9143060021
+ "volume_usd": 894447.4043060021
 }
