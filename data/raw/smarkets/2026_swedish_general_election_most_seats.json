@@ -1029,6 +1029,27 @@
      "best_offer": 217
     }
    ]
+  },
+  {
+   "date": "2026-07-29",
+   "fetched_at": "2026-07-29T07:37:25Z",
+   "outcomes": [
+    {
+     "label": "Moderate",
+     "best_bid": 1,
+     "best_offer": 77
+    },
+    {
+     "label": "Social Democrats",
+     "best_bid": 9434,
+     "best_offer": 9999
+    },
+    {
+     "label": "Sweden Democrats",
+     "best_bid": 105,
+     "best_offer": 208
+    }
+   ]
   }
  ],
  "market_name": "2026 Swedish General Election - Most Seats",
