@@ -832,6 +832,22 @@
      "line": 6.0
     }
    ]
+  },
+  {
+   "date": "2026-07-31",
+   "fetched_at": "2026-07-31T07:45:07Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.6,
+     "line": 6.0
+    },
+    {
+     "label": "Under",
+     "odds": 2.2,
+     "line": 6.0
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Miljöpartiet (mp)",

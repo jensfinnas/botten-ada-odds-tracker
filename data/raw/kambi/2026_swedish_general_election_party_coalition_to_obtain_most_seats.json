@@ -728,6 +728,20 @@
      "odds": 1.18
     }
    ]
+  },
+  {
+   "date": "2026-07-31",
+   "fetched_at": "2026-07-31T07:45:07Z",
+   "outcomes": [
+    {
+     "label": "(m)+(sd)+(kd)+(l)",
+     "odds": 4.5
+    },
+    {
+     "label": "(s)+(v)+(mp)+(c)",
+     "odds": 1.15
+    }
+   ]
   }
  ],
  "market_name": "Vinner flest platser",
