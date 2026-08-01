@@ -480,6 +480,16 @@
      "probability": 0.965
     }
    ]
+  },
+  {
+   "date": "2026-08-01",
+   "fetched_at": "2026-08-01T07:23:16Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.965
+    }
+   ]
   }
  ],
  "market_name": "is_C_above_4_pct",
