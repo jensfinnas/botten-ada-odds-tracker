@@ -500,6 +500,16 @@
      "probability": 0.335
     }
    ]
+  },
+  {
+   "date": "2026-08-03",
+   "fetched_at": "2026-08-03T08:21:00Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.335
+    }
+   ]
   }
  ],
  "market_name": "does_S_V_MP_have_seat_majority",
