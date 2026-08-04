@@ -896,11 +896,27 @@
      "line": 6.0
     }
    ]
+  },
+  {
+   "date": "2026-08-04",
+   "fetched_at": "2026-08-04T07:30:30Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.8,
+     "line": 6.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.9,
+     "line": 6.5
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Miljöpartiet (mp)",
  "market_name_english": "Percentage of votes obtained - Green Party (mp)",
- "market_id": "1020265650/2614522519",
+ "market_id": "1020265650/2676165447",
  "criterion_id": 1004970417,
  "event_name": "2026 Swedish General Election",
  "url": "https://www.unibet.se/betting/sports/event/1020265650",
