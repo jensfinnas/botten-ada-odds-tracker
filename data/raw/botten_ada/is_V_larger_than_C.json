@@ -530,11 +530,21 @@
      "probability": 0.871
     }
    ]
+  },
+  {
+   "date": "2026-08-06",
+   "fetched_at": "2026-08-06T07:33:31Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.877
+    }
+   ]
   }
  ],
  "market_name": "is_V_larger_than_C",
  "market_id": "is_V_larger_than_C",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_V_larger_than_C.json",
  "odds_format": "probability",
- "model_run": "ada_refit_20260722_081630_19701"
+ "model_run": "fc2026_final_x_drift_8m10_20260722_081631_19105"
 }

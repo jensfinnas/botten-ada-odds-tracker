@@ -912,6 +912,22 @@
      "price": 0.9865
     }
    ]
+  },
+  {
+   "date": "2026-08-06",
+   "fetched_at": "2026-08-06T07:33:35Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.015,
+     "best_bid": 0.003,
+     "best_ask": 0.027
+    },
+    {
+     "label": "No",
+     "price": 0.985
+    }
+   ]
   }
  ],
  "market_name": "Will the Centre Party (C) win the third most seats in the 2026 Swedish parliamentary election?",
