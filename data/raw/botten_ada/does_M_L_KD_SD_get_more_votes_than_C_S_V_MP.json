@@ -540,6 +540,16 @@
      "probability": 0.04
     }
    ]
+  },
+  {
+   "date": "2026-08-07",
+   "fetched_at": "2026-08-07T06:04:43Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.04
+    }
+   ]
   }
  ],
  "market_name": "does_M_L_KD_SD_get_more_votes_than_C_S_V_MP",
