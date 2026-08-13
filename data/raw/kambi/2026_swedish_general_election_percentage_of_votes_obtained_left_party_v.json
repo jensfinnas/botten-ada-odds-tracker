@@ -1040,6 +1040,22 @@
      "line": 8.0
     }
    ]
+  },
+  {
+   "date": "2026-08-13",
+   "fetched_at": "2026-08-13T06:09:28Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.9,
+     "line": 8.0
+    },
+    {
+     "label": "Under",
+     "odds": 1.8,
+     "line": 8.0
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Vänsterpartiet (v)",

@@ -600,11 +600,21 @@
      "probability": 0.133
     }
    ]
+  },
+  {
+   "date": "2026-08-13",
+   "fetched_at": "2026-08-13T06:09:23Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.114
+    }
+   ]
   }
  ],
  "market_name": "does_S_V_MP_have_vote_majority",
  "market_id": "does_S_V_MP_have_vote_majority",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_S_V_MP_have_vote_majority.json",
  "odds_format": "probability",
- "model_run": "fc2026_final_x_drift_8m10_20260722_081631_19105"
+ "model_run": "fc2026_final_x_drift_8m10_20260812_185259_12652"
 }

@@ -1040,6 +1040,22 @@
      "line": 17.5
     }
    ]
+  },
+  {
+   "date": "2026-08-13",
+   "fetched_at": "2026-08-13T06:09:28Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.95,
+     "line": 17.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.75,
+     "line": 17.5
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Moderaterna (m)",
