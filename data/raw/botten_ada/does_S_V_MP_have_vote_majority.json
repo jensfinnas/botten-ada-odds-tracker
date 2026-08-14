@@ -610,6 +610,16 @@
      "probability": 0.114
     }
    ]
+  },
+  {
+   "date": "2026-08-14",
+   "fetched_at": "2026-08-14T06:06:59Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.114
+    }
+   ]
   }
  ],
  "market_name": "does_S_V_MP_have_vote_majority",

@@ -610,6 +610,16 @@
      "probability": 0.546
     }
    ]
+  },
+  {
+   "date": "2026-08-14",
+   "fetched_at": "2026-08-14T06:06:59Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.546
+    }
+   ]
   }
  ],
  "market_name": "does_S_win_but_needs_C_MP_V_to_get_seat_majority",
