@@ -620,6 +620,16 @@
      "probability": 0.108
     }
    ]
+  },
+  {
+   "date": "2026-08-15",
+   "fetched_at": "2026-08-15T05:16:50Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.108
+    }
+   ]
   }
  ],
  "market_name": "does_C_S_MP_have_seat_majority",
