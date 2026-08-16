@@ -1072,6 +1072,22 @@
      "price": 0.9945
     }
    ]
+  },
+  {
+   "date": "2026-08-16",
+   "fetched_at": "2026-08-16T05:18:55Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0115,
+     "best_bid": 0.003,
+     "best_ask": 0.02
+    },
+    {
+     "label": "No",
+     "price": 0.9885
+    }
+   ]
   }
  ],
  "market_name": "Will the Centre Party (C) win the third most seats in the 2026 Swedish parliamentary election?",
@@ -1079,5 +1095,5 @@
  "event_name": "Sweden Parliamentary Election: 3rd Place",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-3rd-place",
  "odds_format": "probability",
- "volume_usd": 3077.3763569999996
+ "volume_usd": 3077.376357
 }
