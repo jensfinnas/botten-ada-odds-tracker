@@ -640,6 +640,16 @@
      "probability": 0.061
     }
    ]
+  },
+  {
+   "date": "2026-08-17",
+   "fetched_at": "2026-08-17T05:26:37Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.061
+    }
+   ]
   }
  ],
  "market_name": "is_S_record_low",
