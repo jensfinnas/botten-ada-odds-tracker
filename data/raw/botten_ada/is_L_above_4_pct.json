@@ -650,11 +650,21 @@
      "probability": 0.44
     }
    ]
+  },
+  {
+   "date": "2026-08-18",
+   "fetched_at": "2026-08-18T05:20:04Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.312
+    }
+   ]
   }
  ],
  "market_name": "is_L_above_4_pct",
  "market_id": "is_L_above_4_pct",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_L_above_4_pct.json",
  "odds_format": "probability",
- "model_run": "fc2026_final_x_drift_8m10_20260812_185259_12652"
+ "model_run": "ada_refit_20260817_211241_25888"
 }

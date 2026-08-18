@@ -650,11 +650,21 @@
      "probability": 0.212
     }
    ]
+  },
+  {
+   "date": "2026-08-18",
+   "fetched_at": "2026-08-18T05:20:05Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.169
+    }
+   ]
   }
  ],
  "market_name": "is_SD_record_high",
  "market_id": "is_SD_record_high",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_SD_record_high.json",
  "odds_format": "probability",
- "model_run": "fc2026_final_x_drift_8m10_20260812_185259_12652"
+ "model_run": "ada_refit_20260817_211241_25888"
 }
