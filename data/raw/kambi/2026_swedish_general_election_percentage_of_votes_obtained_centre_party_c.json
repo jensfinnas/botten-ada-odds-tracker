@@ -1120,11 +1120,27 @@
      "line": 6.0
     }
    ]
+  },
+  {
+   "date": "2026-08-19",
+   "fetched_at": "2026-08-19T05:20:41Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.8,
+     "line": 7.0
+    },
+    {
+     "label": "Under",
+     "odds": 1.9,
+     "line": 7.0
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Centerpartiet (c)",
  "market_name_english": "Percentage of votes obtained - Centre Party (c)",
- "market_id": "1020265650/2676165446",
+ "market_id": "1020265650/2681599444",
  "criterion_id": 1004970407,
  "event_name": "2026 Swedish General Election",
  "url": "https://www.unibet.se/betting/sports/event/1020265650",

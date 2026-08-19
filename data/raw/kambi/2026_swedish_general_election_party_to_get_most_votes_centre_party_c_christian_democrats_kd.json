@@ -1,0 +1,26 @@
+{
+ "source": "kambi",
+ "observations": [
+  {
+   "date": "2026-08-19",
+   "fetched_at": "2026-08-19T05:20:41Z",
+   "outcomes": [
+    {
+     "label": "Centre Party (c)",
+     "odds": 1.5
+    },
+    {
+     "label": "Christian-Democrats (kd)",
+     "odds": 2.4
+    }
+   ]
+  }
+ ],
+ "market_name": "Partiet som får flest röster",
+ "market_name_english": "Party to get most votes",
+ "market_id": "1020265650/2681608478",
+ "criterion_id": 2100107896,
+ "event_name": "2026 Swedish General Election",
+ "url": "https://www.unibet.se/betting/sports/event/1020265650",
+ "odds_format": "decimal"
+}

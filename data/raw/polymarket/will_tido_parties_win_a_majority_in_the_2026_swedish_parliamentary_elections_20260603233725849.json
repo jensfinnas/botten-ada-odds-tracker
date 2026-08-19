@@ -1120,6 +1120,22 @@
      "price": 0.835
     }
    ]
+  },
+  {
+   "date": "2026-08-19",
+   "fetched_at": "2026-08-19T05:20:42Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.2,
+     "best_bid": 0.18,
+     "best_ask": 0.22
+    },
+    {
+     "label": "No",
+     "price": 0.8
+    }
+   ]
   }
  ],
  "market_name": "Will Tidö parties win a majority in the 2026 Swedish parliamentary elections?",
@@ -1127,5 +1143,5 @@
  "event_name": "Will Tidö parties win a majority in the 2026 Swedish parliamentary elections?",
  "url": "https://polymarket.com/event/will-tido-parties-win-a-majority-in-the-2026-swedish-parliamentary-elections-20260603233725849",
  "odds_format": "probability",
- "volume_usd": 7164.673305000002
+ "volume_usd": 7265.218758000002
 }
