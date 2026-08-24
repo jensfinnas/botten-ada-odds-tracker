@@ -1200,6 +1200,22 @@
      "price": 0.997
     }
    ]
+  },
+  {
+   "date": "2026-08-24",
+   "fetched_at": "2026-08-24T05:30:06Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0035,
+     "best_bid": 0.003,
+     "best_ask": 0.004
+    },
+    {
+     "label": "No",
+     "price": 0.9965
+    }
+   ]
   }
  ],
  "market_name": "Will Elisabeth Thand Ringqvist be the next Prime Minister of Sweden?",
@@ -1207,5 +1223,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 134554.326862
+ "volume_usd": 138649.399362
 }
