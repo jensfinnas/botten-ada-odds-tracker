@@ -720,6 +720,16 @@
      "probability": 0.828
     }
    ]
+  },
+  {
+   "date": "2026-08-25",
+   "fetched_at": "2026-08-25T05:23:11Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.828
+    }
+   ]
   }
  ],
  "market_name": "is_V_larger_than_C",
