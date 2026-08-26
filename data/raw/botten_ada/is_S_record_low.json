@@ -730,11 +730,21 @@
      "probability": 0.067
     }
    ]
+  },
+  {
+   "date": "2026-08-26",
+   "fetched_at": "2026-08-26T05:24:19Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.052
+    }
+   ]
   }
  ],
  "market_name": "is_S_record_low",
  "market_id": "is_S_record_low",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--is_S_record_low.json",
  "odds_format": "probability",
- "model_run": "fc2026_final_x_drift_8m10_20260819_063555_30060"
+ "model_run": "fc2026_final_x_drift_8m10_20260825_185151_15768"
 }

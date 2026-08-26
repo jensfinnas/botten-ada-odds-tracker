@@ -730,11 +730,21 @@
      "probability": 0.002
     }
    ]
+  },
+  {
+   "date": "2026-08-26",
+   "fetched_at": "2026-08-26T05:24:20Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.002
+    }
+   ]
   }
  ],
  "market_name": "does_M_get_most_seats",
  "market_id": "does_M_get_most_seats",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_M_get_most_seats.json",
  "odds_format": "probability",
- "model_run": "fc2026_final_x_drift_8m10_20260819_063555_30060"
+ "model_run": "fc2026_final_x_drift_8m10_20260825_185151_15768"
 }

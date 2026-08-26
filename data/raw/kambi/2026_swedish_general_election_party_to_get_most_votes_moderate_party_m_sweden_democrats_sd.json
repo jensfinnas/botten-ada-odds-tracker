@@ -1078,6 +1078,20 @@
      "odds": 7.5
     }
    ]
+  },
+  {
+   "date": "2026-08-26",
+   "fetched_at": "2026-08-26T05:24:20Z",
+   "outcomes": [
+    {
+     "label": "Sweden Democrats (sd)",
+     "odds": 1.05
+    },
+    {
+     "label": "Moderate Party (m)",
+     "odds": 7.5
+    }
+   ]
   }
  ],
  "market_name": "Partiet som får flest röster",

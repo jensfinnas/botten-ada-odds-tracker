@@ -1232,6 +1232,22 @@
      "line": 4.0
     }
    ]
+  },
+  {
+   "date": "2026-08-26",
+   "fetched_at": "2026-08-26T05:24:20Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 4.0,
+     "line": 4.0
+    },
+    {
+     "label": "Under",
+     "odds": 1.2,
+     "line": 4.0
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Liberalerna (l)",

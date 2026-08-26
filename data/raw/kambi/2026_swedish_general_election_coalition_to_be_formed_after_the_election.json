@@ -58,6 +58,64 @@
      "odds": 4.0
     }
    ]
+  },
+  {
+   "date": "2026-08-26",
+   "fetched_at": "2026-08-26T05:24:20Z",
+   "outcomes": [
+    {
+     "label": "(m)+(sd)",
+     "odds": 15.0
+    },
+    {
+     "label": "(m)+(sd)+(kd)",
+     "odds": 9.0
+    },
+    {
+     "label": "(m)+(sd)+(kd)+(l)",
+     "odds": 4.5
+    },
+    {
+     "label": "(s)",
+     "odds": 4.5
+    },
+    {
+     "label": "(s)+(c)",
+     "odds": 11.0
+    },
+    {
+     "label": "(s)+(c)+(mp)",
+     "odds": 2.75
+    },
+    {
+     "label": "(s)+(kd)",
+     "odds": 6.0
+    },
+    {
+     "label": "(s)+(kd)+(c)",
+     "odds": 4.5
+    },
+    {
+     "label": "(s)+(m)",
+     "odds": 13.0
+    },
+    {
+     "label": "(s)+(mp)",
+     "odds": 3.75
+    },
+    {
+     "label": "(s)+(mp)+(v)",
+     "odds": 4.0
+    },
+    {
+     "label": "(s)+(v)",
+     "odds": 11.0
+    },
+    {
+     "label": "(s)+(v)+(mp)+(c)",
+     "odds": 4.25
+    }
+   ]
   }
  ],
  "market_name": "Coalition to be formed after the election",

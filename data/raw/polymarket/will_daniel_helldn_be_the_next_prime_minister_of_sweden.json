@@ -1232,6 +1232,22 @@
      "price": 0.9985
     }
    ]
+  },
+  {
+   "date": "2026-08-26",
+   "fetched_at": "2026-08-26T05:24:21Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0015,
+     "best_bid": 0.001,
+     "best_ask": 0.002
+    },
+    {
+     "label": "No",
+     "price": 0.9985
+    }
+   ]
   }
  ],
  "market_name": "Will Daniel Helldén be the next Prime Minister of Sweden?",
@@ -1239,5 +1255,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 289837.23619799997
+ "volume_usd": 294486.00519800006
 }
