@@ -1106,6 +1106,20 @@
      "odds": 1.15
     }
    ]
+  },
+  {
+   "date": "2026-08-27",
+   "fetched_at": "2026-08-27T15:59:55Z",
+   "outcomes": [
+    {
+     "label": "(m)+(sd)+(kd)+(l)",
+     "odds": 4.5
+    },
+    {
+     "label": "(s)+(v)+(mp)+(c)",
+     "odds": 1.13
+    }
+   ]
   }
  ],
  "market_name": "Vinner flest platser",

@@ -112,6 +112,20 @@
      "odds": 2.1
     }
    ]
+  },
+  {
+   "date": "2026-08-27",
+   "fetched_at": "2026-08-27T15:59:55Z",
+   "outcomes": [
+    {
+     "label": "Left Party (v)",
+     "odds": 1.65
+    },
+    {
+     "label": "Centre Party (c)",
+     "odds": 2.1
+    }
+   ]
   }
  ],
  "market_name": "Partiet som får flest röster",

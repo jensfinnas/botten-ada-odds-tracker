@@ -1248,11 +1248,27 @@
      "line": 20.5
     }
    ]
+  },
+  {
+   "date": "2026-08-27",
+   "fetched_at": "2026-08-27T15:59:55Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.8,
+     "line": 20.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.9,
+     "line": 20.5
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Sverigedemokraterna (sd)",
  "market_name_english": "Percentage of votes obtained - Sweden Democrats (sd)",
- "market_id": "1020265650/2618067972",
+ "market_id": "1020265650/2685087247",
  "criterion_id": 1004970404,
  "event_name": "2026 Swedish General Election",
  "url": "https://www.unibet.se/betting/sports/event/1020265650",
