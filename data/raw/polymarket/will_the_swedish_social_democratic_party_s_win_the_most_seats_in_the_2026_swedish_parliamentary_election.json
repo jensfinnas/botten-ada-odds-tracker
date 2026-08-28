@@ -1264,6 +1264,22 @@
      "price": 0.0125
     }
    ]
+  },
+  {
+   "date": "2026-08-28",
+   "fetched_at": "2026-08-28T17:00:40Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.9885,
+     "best_bid": 0.988,
+     "best_ask": 0.989
+    },
+    {
+     "label": "No",
+     "price": 0.0115
+    }
+   ]
   }
  ],
  "market_name": "Will the Swedish Social Democratic Party (S) win the most seats in the 2026 Swedish parliamentary election?",
@@ -1271,5 +1287,5 @@
  "event_name": "Sweden Parliamentary Election Winner",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-winner",
  "odds_format": "probability",
- "volume_usd": 121779.23713600001
+ "volume_usd": 126015.25702399998
 }
