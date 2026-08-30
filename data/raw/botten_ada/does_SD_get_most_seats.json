@@ -770,6 +770,16 @@
      "probability": 0.002
     }
    ]
+  },
+  {
+   "date": "2026-08-30",
+   "fetched_at": "2026-08-30T10:11:20Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.002
+    }
+   ]
   }
  ],
  "market_name": "does_SD_get_most_seats",
