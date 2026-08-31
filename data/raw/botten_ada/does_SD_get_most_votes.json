@@ -780,6 +780,16 @@
      "probability": 0.003
     }
    ]
+  },
+  {
+   "date": "2026-08-31",
+   "fetched_at": "2026-08-31T11:14:30Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.003
+    }
+   ]
   }
  ],
  "market_name": "does_SD_get_most_votes",
