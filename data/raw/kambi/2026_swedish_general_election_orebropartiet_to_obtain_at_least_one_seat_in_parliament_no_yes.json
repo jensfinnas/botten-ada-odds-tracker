@@ -1,0 +1,26 @@
+{
+ "source": "kambi",
+ "observations": [
+  {
+   "date": "2026-09-01",
+   "fetched_at": "2026-09-01T09:40:02Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "odds": 2.25
+    },
+    {
+     "label": "No",
+     "odds": 1.5
+    }
+   ]
+  }
+ ],
+ "market_name": "Örebropartiet säkrar minst en plats i riksdagen",
+ "market_name_english": "Örebropartiet to obtain at least one seat in Parliament",
+ "market_id": "1020265650/2686904803",
+ "criterion_id": 2100123917,
+ "event_name": "2026 Swedish General Election",
+ "url": "https://www.unibet.se/betting/sports/event/1020265650",
+ "odds_format": "decimal"
+}

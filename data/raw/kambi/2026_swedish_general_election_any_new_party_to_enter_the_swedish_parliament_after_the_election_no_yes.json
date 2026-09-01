@@ -1,0 +1,26 @@
+{
+ "source": "kambi",
+ "observations": [
+  {
+   "date": "2026-09-01",
+   "fetched_at": "2026-09-01T09:40:02Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "odds": 2.1
+    },
+    {
+     "label": "No",
+     "odds": 1.65
+    }
+   ]
+  }
+ ],
+ "market_name": "Något nytt parti att in i riksdagen efter valet",
+ "market_name_english": "Any new party to enter the Swedish Parliament after the election",
+ "market_id": "1020265650/2686947539",
+ "criterion_id": 2100123934,
+ "event_name": "2026 Swedish General Election",
+ "url": "https://www.unibet.se/betting/sports/event/1020265650",
+ "odds_format": "decimal"
+}

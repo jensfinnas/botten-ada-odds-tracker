@@ -790,6 +790,16 @@
      "probability": 0.194
     }
    ]
+  },
+  {
+   "date": "2026-09-01",
+   "fetched_at": "2026-09-01T09:40:00Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.194
+    }
+   ]
   }
  ],
  "market_name": "is_SD_record_high",
