@@ -14,9 +14,23 @@
      "odds": 3.5
     }
    ]
+  },
+  {
+   "date": "2026-09-02",
+   "fetched_at": "2026-09-02T09:11:31Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "odds": 1.45
+    },
+    {
+     "label": "No",
+     "odds": 2.4
+    }
+   ]
   }
  ],
- "market_name": "Minst ett nuvarande riksdagsparti kommer att åka ur riksdagen efter valet",
+ "market_name": "Minst ett nuvarande riksdagsparti åker ur riksdagen efter valet",
  "market_name_english": "At least one party in the Riksdag to lose its parliamentary representation after the election",
  "market_id": "1020265650/2686938471",
  "criterion_id": 2100123921,

@@ -14,6 +14,20 @@
      "odds": 1.5
     }
    ]
+  },
+  {
+   "date": "2026-09-02",
+   "fetched_at": "2026-09-02T09:11:31Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "odds": 2.5
+    },
+    {
+     "label": "No",
+     "odds": 1.5
+    }
+   ]
   }
  ],
  "market_name": "Örebropartiet säkrar minst en plats i riksdagen",

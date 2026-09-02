@@ -800,11 +800,21 @@
      "probability": 0.054
     }
    ]
+  },
+  {
+   "date": "2026-09-02",
+   "fetched_at": "2026-09-02T09:11:27Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.083
+    }
+   ]
   }
  ],
  "market_name": "does_rw_get_more_seats_than_lw",
  "market_id": "does_rw_get_more_seats_than_lw",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_rw_get_more_seats_than_lw.json",
  "odds_format": "probability",
- "model_run": "ada_refit_20260827_113246_3746"
+ "model_run": "ada_refit_20260902_050214_9869"
 }

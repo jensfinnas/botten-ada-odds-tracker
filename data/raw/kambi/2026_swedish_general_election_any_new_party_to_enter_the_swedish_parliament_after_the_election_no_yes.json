@@ -14,9 +14,23 @@
      "odds": 1.65
     }
    ]
+  },
+  {
+   "date": "2026-09-02",
+   "fetched_at": "2026-09-02T09:11:31Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "odds": 2.5
+    },
+    {
+     "label": "No",
+     "odds": 1.4
+    }
+   ]
   }
  ],
- "market_name": "Något nytt parti att in i riksdagen efter valet",
+ "market_name": "Ett nytt parti kommer in i den svenska riksdagen",
  "market_name_english": "Any new party to enter the Swedish Parliament after the election",
  "market_id": "1020265650/2686947539",
  "criterion_id": 2100123934,
