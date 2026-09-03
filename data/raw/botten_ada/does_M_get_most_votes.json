@@ -810,11 +810,21 @@
      "probability": 0.001
     }
    ]
+  },
+  {
+   "date": "2026-09-03",
+   "fetched_at": "2026-09-03T09:18:19Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.001
+    }
+   ]
   }
  ],
  "market_name": "does_M_get_most_votes",
  "market_id": "does_M_get_most_votes",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_M_get_most_votes.json",
  "odds_format": "probability",
- "model_run": "ada_refit_20260902_050214_9869"
+ "model_run": "fc2026_final_x_drift_8m10_20260902_050205_19757"
 }

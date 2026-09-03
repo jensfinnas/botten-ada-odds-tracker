@@ -1360,11 +1360,27 @@
      "line": 17.5
     }
    ]
+  },
+  {
+   "date": "2026-09-03",
+   "fetched_at": "2026-09-03T09:18:20Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.75,
+     "line": 18.0
+    },
+    {
+     "label": "Under",
+     "odds": 2.0,
+     "line": 18.0
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Moderaterna (m)",
  "market_name_english": "Percentage of votes obtained - Moderate Party (m)",
- "market_id": "1020265650/2618067957",
+ "market_id": "1020265650/2687563241",
  "criterion_id": 1004970405,
  "event_name": "2026 Swedish General Election",
  "url": "https://www.unibet.se/betting/sports/event/1020265650",
