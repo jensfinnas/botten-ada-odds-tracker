@@ -1376,6 +1376,22 @@
      "line": 6.5
     }
    ]
+  },
+  {
+   "date": "2026-09-04",
+   "fetched_at": "2026-09-04T09:11:51Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 1.6,
+     "line": 6.5
+    },
+    {
+     "label": "Under",
+     "odds": 2.25,
+     "line": 6.5
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Kristdemokraterna (kd)",

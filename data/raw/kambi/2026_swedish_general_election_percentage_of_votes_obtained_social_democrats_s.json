@@ -1376,6 +1376,22 @@
      "line": 28.5
     }
    ]
+  },
+  {
+   "date": "2026-09-04",
+   "fetched_at": "2026-09-04T09:11:51Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 2.0,
+     "line": 28.5
+    },
+    {
+     "label": "Under",
+     "odds": 1.75,
+     "line": 28.5
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Socialdemokraterna (s)",

@@ -820,11 +820,21 @@
      "probability": 0.003
     }
    ]
+  },
+  {
+   "date": "2026-09-04",
+   "fetched_at": "2026-09-04T09:11:51Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.003
+    }
+   ]
   }
  ],
  "market_name": "does_SD_get_most_seats",
  "market_id": "does_SD_get_most_seats",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_SD_get_most_seats.json",
  "odds_format": "probability",
- "model_run": "fc2026_final_x_drift_8m10_20260902_050205_19757"
+ "model_run": "ada_refit_20260903_150216_4641"
 }
