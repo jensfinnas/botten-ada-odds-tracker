@@ -42,6 +42,20 @@
      "odds": 2.2
     }
    ]
+  },
+  {
+   "date": "2026-09-05",
+   "fetched_at": "2026-09-05T08:42:36Z",
+   "outcomes": [
+    {
+     "label": "Left Party (v)",
+     "odds": 1.45
+    },
+    {
+     "label": "Green Party (mp)",
+     "odds": 2.5
+    }
+   ]
   }
  ],
  "market_name": "Partiet som får flest röster",

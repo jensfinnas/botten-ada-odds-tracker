@@ -1392,6 +1392,22 @@
      "line": 21.0
     }
    ]
+  },
+  {
+   "date": "2026-09-05",
+   "fetched_at": "2026-09-05T08:42:36Z",
+   "outcomes": [
+    {
+     "label": "Over",
+     "odds": 2.0,
+     "line": 21.0
+    },
+    {
+     "label": "Under",
+     "odds": 1.75,
+     "line": 21.0
+    }
+   ]
   }
  ],
  "market_name": "Procent mottagna röster - Sverigedemokraterna (sd)",

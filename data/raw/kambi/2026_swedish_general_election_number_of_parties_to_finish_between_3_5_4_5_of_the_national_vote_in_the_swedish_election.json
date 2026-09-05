@@ -66,6 +66,28 @@
      "odds": 26.0
     }
    ]
+  },
+  {
+   "date": "2026-09-05",
+   "fetched_at": "2026-09-05T08:42:36Z",
+   "outcomes": [
+    {
+     "label": "0",
+     "odds": 1.8
+    },
+    {
+     "label": "1",
+     "odds": 1.91
+    },
+    {
+     "label": "2",
+     "odds": 7.5
+    },
+    {
+     "label": "3 or more",
+     "odds": 26.0
+    }
+   ]
   }
  ],
  "market_name": "Antal partier som får mellan 3,5% och 4,5% av rösterna i riksdagsvalet",

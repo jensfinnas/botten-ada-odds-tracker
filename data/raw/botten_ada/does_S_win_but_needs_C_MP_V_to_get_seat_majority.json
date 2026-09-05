@@ -830,11 +830,21 @@
      "probability": 0.573
     }
    ]
+  },
+  {
+   "date": "2026-09-05",
+   "fetched_at": "2026-09-05T08:42:33Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.572
+    }
+   ]
   }
  ],
  "market_name": "does_S_win_but_needs_C_MP_V_to_get_seat_majority",
  "market_id": "does_S_win_but_needs_C_MP_V_to_get_seat_majority",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_S_win_but_needs_C_MP_V_to_get_seat_majority.json",
  "odds_format": "probability",
- "model_run": "ada_refit_20260903_150216_4641"
+ "model_run": "ada_refit_20260904_110921_24655"
 }
