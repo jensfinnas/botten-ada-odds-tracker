@@ -1408,6 +1408,22 @@
      "best_offer": 3175
     }
    ]
+  },
+  {
+   "date": "2026-09-06",
+   "fetched_at": "2026-09-06T09:03:44Z",
+   "outcomes": [
+    {
+     "label": "Magdalena Andersson",
+     "best_bid": 7143,
+     "best_offer": 8475
+    },
+    {
+     "label": "Ulf Kristersson",
+     "best_bid": 1923,
+     "best_offer": 3030
+    }
+   ]
   }
  ],
  "market_name": "Next Swedish Prime Minister",

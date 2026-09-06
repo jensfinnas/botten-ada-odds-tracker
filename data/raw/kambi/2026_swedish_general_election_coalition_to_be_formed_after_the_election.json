@@ -696,6 +696,64 @@
      "odds": 5.0
     }
    ]
+  },
+  {
+   "date": "2026-09-06",
+   "fetched_at": "2026-09-06T09:03:42Z",
+   "outcomes": [
+    {
+     "label": "(m)+(sd)",
+     "odds": 15.0
+    },
+    {
+     "label": "(m)+(sd)+(kd)",
+     "odds": 3.5
+    },
+    {
+     "label": "(m)+(sd)+(kd)+(l)",
+     "odds": 3.5
+    },
+    {
+     "label": "(s)",
+     "odds": 6.0
+    },
+    {
+     "label": "(s)+(c)",
+     "odds": 11.0
+    },
+    {
+     "label": "(s)+(c)+(mp)",
+     "odds": 3.5
+    },
+    {
+     "label": "(s)+(kd)",
+     "odds": 7.5
+    },
+    {
+     "label": "(s)+(kd)+(c)",
+     "odds": 5.5
+    },
+    {
+     "label": "(s)+(m)",
+     "odds": 11.0
+    },
+    {
+     "label": "(s)+(mp)",
+     "odds": 4.75
+    },
+    {
+     "label": "(s)+(mp)+(v)",
+     "odds": 4.5
+    },
+    {
+     "label": "(s)+(v)",
+     "odds": 11.0
+    },
+    {
+     "label": "(s)+(v)+(mp)+(c)",
+     "odds": 5.0
+    }
+   ]
   }
  ],
  "market_name": "Koalition som bildar regering",

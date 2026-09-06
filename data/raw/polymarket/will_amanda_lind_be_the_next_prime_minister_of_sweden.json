@@ -1408,6 +1408,22 @@
      "price": 0.9985
     }
    ]
+  },
+  {
+   "date": "2026-09-06",
+   "fetched_at": "2026-09-06T09:03:43Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0005,
+     "best_bid": null,
+     "best_ask": 0.001
+    },
+    {
+     "label": "No",
+     "price": 0.9995
+    }
+   ]
   }
  ],
  "market_name": "Will Amanda Lind be the next Prime Minister of Sweden?",
@@ -1415,5 +1431,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 131200.71762699998
+ "volume_usd": 133576.286627
 }
