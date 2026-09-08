@@ -860,11 +860,21 @@
      "probability": 0.128
     }
    ]
+  },
+  {
+   "date": "2026-09-08",
+   "fetched_at": "2026-09-08T09:14:59Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.135
+    }
+   ]
   }
  ],
  "market_name": "does_M_L_KD_SD_have_seat_majority",
  "market_id": "does_M_L_KD_SD_have_seat_majority",
  "url": "http://ada-site-data.s3.eu-north-1.amazonaws.com/latest_forecast/question--does_M_L_KD_SD_have_seat_majority.json",
  "odds_format": "probability",
- "model_run": "fc2026_final_x_drift_8m10_20260905_070751_7951"
+ "model_run": "fc2026_final_x_drift_8m10_20260907_184945_32228"
 }
