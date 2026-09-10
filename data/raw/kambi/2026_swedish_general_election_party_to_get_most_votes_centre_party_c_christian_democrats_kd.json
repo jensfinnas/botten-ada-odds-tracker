@@ -308,6 +308,20 @@
      "odds": 2.4
     }
    ]
+  },
+  {
+   "date": "2026-09-10",
+   "fetched_at": "2026-09-10T09:17:10Z",
+   "outcomes": [
+    {
+     "label": "Centre Party (c)",
+     "odds": 1.4
+    },
+    {
+     "label": "Christian-Democrats (kd)",
+     "odds": 2.5
+    }
+   ]
   }
  ],
  "market_name": "Partiet som får flest röster",
