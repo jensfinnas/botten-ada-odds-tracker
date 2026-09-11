@@ -126,6 +126,20 @@
      "odds": 3.5
     }
    ]
+  },
+  {
+   "date": "2026-09-11",
+   "fetched_at": "2026-09-11T09:15:59Z",
+   "outcomes": [
+    {
+     "label": "Green Party (mp)",
+     "odds": 1.25
+    },
+    {
+     "label": "Christian-Democrats (kd)",
+     "odds": 3.5
+    }
+   ]
   }
  ],
  "market_name": "Partiet som får flest röster",
