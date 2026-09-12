@@ -3572,6 +3572,44 @@
      "odds": 15.0
     }
    ]
+  },
+  {
+   "date": "2026-09-12",
+   "fetched_at": "2026-09-12T08:56:25Z",
+   "outcomes": [
+    {
+     "label": "Left Party (v)",
+     "odds": 101.0
+    },
+    {
+     "label": "Liberals (l)",
+     "odds": 501.0
+    },
+    {
+     "label": "Green Party (mp)",
+     "odds": 101.0
+    },
+    {
+     "label": "Moderate Party (m)",
+     "odds": 21.0
+    },
+    {
+     "label": "Social-Democrats (s)",
+     "odds": 1.02
+    },
+    {
+     "label": "Centre Party (c)",
+     "odds": 101.0
+    },
+    {
+     "label": "Christian-Democrats (kd)",
+     "odds": 251.0
+    },
+    {
+     "label": "Sweden Democrats (sd)",
+     "odds": 15.0
+    }
+   ]
   }
  ],
  "market_name": "Parti/koalition som får högst procent av rösterna",

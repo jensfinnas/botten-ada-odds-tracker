@@ -140,6 +140,20 @@
      "odds": 1.73
     }
    ]
+  },
+  {
+   "date": "2026-09-12",
+   "fetched_at": "2026-09-12T08:56:25Z",
+   "outcomes": [
+    {
+     "label": "Centre Party (c)",
+     "odds": 1.55
+    },
+    {
+     "label": "Green Party (mp)",
+     "odds": 2.3
+    }
+   ]
   }
  ],
  "market_name": "Partiet som får flest röster",
