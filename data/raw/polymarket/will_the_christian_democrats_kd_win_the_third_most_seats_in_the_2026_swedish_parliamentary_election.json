@@ -1520,6 +1520,22 @@
      "price": 0.9995
     }
    ]
+  },
+  {
+   "date": "2026-09-13",
+   "fetched_at": "2026-09-13T09:53:47Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0005,
+     "best_bid": null,
+     "best_ask": 0.001
+    },
+    {
+     "label": "No",
+     "price": 0.9995
+    }
+   ]
   }
  ],
  "market_name": "Will the Christian Democrats (KD) win the third most seats in the 2026 Swedish parliamentary election?",
@@ -1527,5 +1543,5 @@
  "event_name": "Sweden Parliamentary Election: 3rd Place",
  "url": "https://polymarket.com/event/sweden-parliamentary-election-3rd-place",
  "odds_format": "probability",
- "volume_usd": 2568.9273579999995
+ "volume_usd": 4368.927358
 }
