@@ -1,0 +1,26 @@
+{
+ "source": "kambi",
+ "observations": [
+  {
+   "date": "2026-09-16",
+   "fetched_at": "2026-09-16T09:35:51Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "odds": 5.5
+    },
+    {
+     "label": "No",
+     "odds": 1.1
+    }
+   ]
+  }
+ ],
+ "market_name": "Partier som utgör delar av koalitionsregeringen efter valet",
+ "market_name_english": "Party to form part of the governing coalition after the election",
+ "market_id": "1020265650/2692408357",
+ "criterion_id": 2100108171,
+ "event_name": "2026 Swedish General Election",
+ "url": "https://www.unibet.se/betting/sports/event/1020265650",
+ "odds_format": "decimal"
+}

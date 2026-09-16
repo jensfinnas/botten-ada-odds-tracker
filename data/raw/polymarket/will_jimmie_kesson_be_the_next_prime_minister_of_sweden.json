@@ -1568,6 +1568,22 @@
      "price": 0.9975
     }
    ]
+  },
+  {
+   "date": "2026-09-16",
+   "fetched_at": "2026-09-16T09:35:52Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.003,
+     "best_bid": 0.002,
+     "best_ask": 0.004
+    },
+    {
+     "label": "No",
+     "price": 0.997
+    }
+   ]
   }
  ],
  "market_name": "Will Jimmie Åkesson be the next Prime Minister of Sweden?",
@@ -1575,5 +1591,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 1788199.6000089997
+ "volume_usd": 1788464.139488
 }
