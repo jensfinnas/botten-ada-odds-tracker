@@ -1856,6 +1856,22 @@
      "price": 0.999
     }
    ]
+  },
+  {
+   "date": "2026-10-04",
+   "fetched_at": "2026-10-04T10:48:50Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.001,
+     "best_bid": null,
+     "best_ask": 0.002
+    },
+    {
+     "label": "No",
+     "price": 0.999
+    }
+   ]
   }
  ],
  "market_name": "Will Simona Mohamsson be the next Prime Minister of Sweden?",
@@ -1863,5 +1879,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 368861.35424200015
+ "volume_usd": 368861.3542420001
 }

@@ -1120,6 +1120,16 @@
      "probability": 0.275
     }
    ]
+  },
+  {
+   "date": "2026-10-04",
+   "fetched_at": "2026-10-04T10:48:45Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.275
+    }
+   ]
   }
  ],
  "market_name": "does_M_L_KD_SD_have_seat_majority",
