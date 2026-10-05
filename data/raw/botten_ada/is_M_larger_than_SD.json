@@ -1130,6 +1130,16 @@
      "probability": 0.295
     }
    ]
+  },
+  {
+   "date": "2026-10-05",
+   "fetched_at": "2026-10-05T11:56:22Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.295
+    }
+   ]
   }
  ],
  "market_name": "is_M_larger_than_SD",

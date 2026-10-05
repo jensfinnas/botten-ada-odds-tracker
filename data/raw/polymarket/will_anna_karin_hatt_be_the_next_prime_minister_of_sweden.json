@@ -1872,6 +1872,22 @@
      "price": 0.9995
     }
    ]
+  },
+  {
+   "date": "2026-10-05",
+   "fetched_at": "2026-10-05T11:56:25Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.0005,
+     "best_bid": null,
+     "best_ask": 0.001
+    },
+    {
+     "label": "No",
+     "price": 0.9995
+    }
+   ]
   }
  ],
  "market_name": "Will Anna-Karin Hatt be the next Prime Minister of Sweden?",
