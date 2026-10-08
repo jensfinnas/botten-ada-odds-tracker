@@ -1920,6 +1920,22 @@
      "price": 0.999
     }
    ]
+  },
+  {
+   "date": "2026-10-08",
+   "fetched_at": "2026-10-08T11:41:31Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.001,
+     "best_bid": null,
+     "best_ask": 0.002
+    },
+    {
+     "label": "No",
+     "price": 0.999
+    }
+   ]
   }
  ],
  "market_name": "Will Simona Mohamsson be the next Prime Minister of Sweden?",
