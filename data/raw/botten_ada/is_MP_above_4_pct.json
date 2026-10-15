@@ -1230,6 +1230,16 @@
      "probability": 0.985
     }
    ]
+  },
+  {
+   "date": "2026-10-15",
+   "fetched_at": "2026-10-15T09:31:16Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.985
+    }
+   ]
   }
  ],
  "market_name": "is_MP_above_4_pct",
