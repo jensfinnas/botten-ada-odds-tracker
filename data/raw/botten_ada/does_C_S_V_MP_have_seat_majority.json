@@ -1250,6 +1250,16 @@
      "probability": 0.725
     }
    ]
+  },
+  {
+   "date": "2026-10-17",
+   "fetched_at": "2026-10-17T08:56:03Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.725
+    }
+   ]
   }
  ],
  "market_name": "does_C_S_V_MP_have_seat_majority",
