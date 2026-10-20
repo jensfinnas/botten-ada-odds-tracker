@@ -1280,6 +1280,16 @@
      "probability": 0.858
     }
    ]
+  },
+  {
+   "date": "2026-10-20",
+   "fetched_at": "2026-10-20T09:43:20Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.858
+    }
+   ]
   }
  ],
  "market_name": "is_L_above_4_pct",
