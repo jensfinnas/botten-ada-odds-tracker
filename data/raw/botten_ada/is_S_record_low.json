@@ -1330,6 +1330,16 @@
      "probability": 0.487
     }
    ]
+  },
+  {
+   "date": "2026-10-25",
+   "fetched_at": "2026-10-25T09:30:03Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.487
+    }
+   ]
   }
  ],
  "market_name": "is_S_record_low",
