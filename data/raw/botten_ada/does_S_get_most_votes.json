@@ -1420,6 +1420,16 @@
      "probability": 0.983
     }
    ]
+  },
+  {
+   "date": "2026-11-03",
+   "fetched_at": "2026-11-03T12:30:11Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.983
+    }
+   ]
   }
  ],
  "market_name": "does_S_get_most_votes",
