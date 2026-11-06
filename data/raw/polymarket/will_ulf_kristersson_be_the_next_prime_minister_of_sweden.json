@@ -2384,6 +2384,22 @@
      "price": 0.7475
     }
    ]
+  },
+  {
+   "date": "2026-11-06",
+   "fetched_at": "2026-11-06T12:35:46Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.354,
+     "best_bid": 0.331,
+     "best_ask": 0.377
+    },
+    {
+     "label": "No",
+     "price": 0.646
+    }
+   ]
   }
  ],
  "market_name": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
@@ -2391,5 +2407,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 2147198.5609200005
+ "volume_usd": 2230884.651667
 }

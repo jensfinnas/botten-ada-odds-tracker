@@ -1450,6 +1450,16 @@
      "probability": 0.487
     }
    ]
+  },
+  {
+   "date": "2026-11-06",
+   "fetched_at": "2026-11-06T12:35:43Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.487
+    }
+   ]
   }
  ],
  "market_name": "is_S_record_low",
