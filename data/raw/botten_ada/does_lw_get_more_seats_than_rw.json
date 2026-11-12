@@ -1510,6 +1510,16 @@
      "probability": 0.725
     }
    ]
+  },
+  {
+   "date": "2026-11-12",
+   "fetched_at": "2026-11-12T13:27:29Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.725
+    }
+   ]
   }
  ],
  "market_name": "does_lw_get_more_seats_than_rw",

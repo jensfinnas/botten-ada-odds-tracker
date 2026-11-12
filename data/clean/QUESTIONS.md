@@ -422,7 +422,7 @@ In Botten Ada ontology: no
 | betsson | Vem blir statsminister efter riksdagsvalet 2026 – Vinnare | Magdalena Andersson | https://www.betsson.com/sv/odds/politik-och-naringsliv |
 | kambi | Kandidat som utnämns till statsminister | Magdalena Andersson | https://www.unibet.se/betting/sports/event/1020265650 |
 | polymarket | Will Magdalena Andersson be the next Prime Minister of Sweden? | Yes | https://polymarket.com/event/next-prime-minister-of-sweden |
-| smarkets | Next Swedish Prime Minister | Magdalena Andersson | https://smarkets.com/politics/europe/sweden/2026/09/13/18-00/2026-swedish-general-election-next-swedish-prime-minister |
+| smarkets | Next Swedish Prime Minister | Magdalena Andersson | https://smarkets.com/politics/europe/sweden/2028/09/13/18-00/swedish-general-election-next-swedish-prime-minister |
 
 ## `does_Kristersson_become_pm`
 
@@ -435,7 +435,7 @@ In Botten Ada ontology: no
 | betsson | Vem blir statsminister efter riksdagsvalet 2026 – Vinnare | Ulf Kristersson | https://www.betsson.com/sv/odds/politik-och-naringsliv |
 | kambi | Kandidat som utnämns till statsminister | Ulf Kristersson | https://www.unibet.se/betting/sports/event/1020265650 |
 | polymarket | Will Ulf Kristersson be the next Prime Minister of Sweden? | Yes | https://polymarket.com/event/next-prime-minister-of-sweden |
-| smarkets | Next Swedish Prime Minister | Ulf Kristersson | https://smarkets.com/politics/europe/sweden/2026/09/13/18-00/2026-swedish-general-election-next-swedish-prime-minister |
+| smarkets | Next Swedish Prime Minister | Ulf Kristersson | https://smarkets.com/politics/europe/sweden/2028/09/13/18-00/swedish-general-election-next-swedish-prime-minister |
 
 ## `does_Akesson_become_pm`
 

@@ -2480,11 +2480,27 @@
      "best_offer": 9999
     }
    ]
+  },
+  {
+   "date": "2026-11-12",
+   "fetched_at": "2026-11-12T13:27:36Z",
+   "outcomes": [
+    {
+     "label": "Magdalena Andersson",
+     "best_bid": 3759,
+     "best_offer": 4425
+    },
+    {
+     "label": "Ulf Kristersson",
+     "best_bid": 5025,
+     "best_offer": 6024
+    }
+   ]
   }
  ],
  "market_name": "Next Swedish Prime Minister",
  "market_id": "144500182",
- "event_name": "2026 Swedish General Election - Next Swedish Prime Minister",
- "url": "https://smarkets.com/politics/europe/sweden/2026/09/13/18-00/2026-swedish-general-election-next-swedish-prime-minister",
+ "event_name": "Swedish General Election - Next Swedish Prime Minister",
+ "url": "https://smarkets.com/politics/europe/sweden/2028/09/13/18-00/swedish-general-election-next-swedish-prime-minister",
  "odds_format": "smarkets_quotes"
 }
