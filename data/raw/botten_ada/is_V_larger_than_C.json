@@ -1560,6 +1560,16 @@
      "probability": 0.196
     }
    ]
+  },
+  {
+   "date": "2026-11-17",
+   "fetched_at": "2026-11-17T13:59:11Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.196
+    }
+   ]
   }
  ],
  "market_name": "is_V_larger_than_C",
