@@ -2656,6 +2656,22 @@
      "price": 0.475
     }
    ]
+  },
+  {
+   "date": "2026-11-23",
+   "fetched_at": "2026-11-23T15:31:43Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.415,
+     "best_bid": 0.41,
+     "best_ask": 0.42
+    },
+    {
+     "label": "No",
+     "price": 0.585
+    }
+   ]
   }
  ],
  "market_name": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
@@ -2663,5 +2679,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 3753582.476787001
+ "volume_usd": 3832804.0081390003
 }

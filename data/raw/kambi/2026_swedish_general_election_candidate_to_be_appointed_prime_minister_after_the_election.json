@@ -1876,6 +1876,20 @@
      "odds": 2.25
     }
    ]
+  },
+  {
+   "date": "2026-11-23",
+   "fetched_at": "2026-11-23T15:31:43Z",
+   "outcomes": [
+    {
+     "label": "Magdalena Andersson",
+     "odds": 1.73
+    },
+    {
+     "label": "Ulf Kristersson",
+     "odds": 2.0
+    }
+   ]
   }
  ],
  "market_name": "Kandidat som utnämns till statsminister",

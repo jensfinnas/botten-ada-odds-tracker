@@ -1620,6 +1620,16 @@
      "probability": 0.007
     }
    ]
+  },
+  {
+   "date": "2026-11-23",
+   "fetched_at": "2026-11-23T15:31:40Z",
+   "outcomes": [
+    {
+     "label": "yes",
+     "probability": 0.007
+    }
+   ]
   }
  ],
  "market_name": "does_C_S_MP_have_vote_majority",
