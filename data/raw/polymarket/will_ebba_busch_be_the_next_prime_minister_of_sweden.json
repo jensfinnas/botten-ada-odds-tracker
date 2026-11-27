@@ -2720,6 +2720,22 @@
      "price": 0.9915
     }
    ]
+  },
+  {
+   "date": "2026-11-27",
+   "fetched_at": "2026-11-27T14:30:40Z",
+   "outcomes": [
+    {
+     "label": "Yes",
+     "price": 0.009,
+     "best_bid": 0.007,
+     "best_ask": 0.011
+    },
+    {
+     "label": "No",
+     "price": 0.991
+    }
+   ]
   }
  ],
  "market_name": "Will Ebba Busch be the next Prime Minister of Sweden?",
@@ -2727,5 +2743,5 @@
  "event_name": "Next Prime Minister of Sweden",
  "url": "https://polymarket.com/event/next-prime-minister-of-sweden",
  "odds_format": "probability",
- "volume_usd": 1131126.299914
+ "volume_usd": 1145064.835996
 }
